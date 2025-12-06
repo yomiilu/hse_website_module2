@@ -1,0 +1,521 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.section1{
+    width: 100vw;
+    height: 110vh;
+    background: linear-gradient(to bottom, #000000 27%, #353535 100%);
+} 
+
+.back_stone1{
+    margin: 0%;
+    position: absolute;
+    width: 100vw; 
+    animation: back_stone1 4s linear infinite;
+}
+
+.back_stone2{
+    margin: 0%;
+    position: absolute;
+    width: 100vw;
+    animation: back_stone2 4s linear infinite;
+}
+
+.back_stone3{
+    margin: 0%;
+    position: absolute;
+    width: 100vw; 
+    animation: back_stone3 5s linear infinite;
+}
+
+.oskolok1{
+    margin-left: 0%;
+    position: absolute;
+    margin-top: 16%;
+    animation: move_osk_1 2s linear infinite;
+}
+
+.oskolok2{
+    margin-left: 0%;
+    position: absolute;
+    margin-top: 9.5%;
+    animation: move_osk_2 2s linear infinite;
+}
+
+
+.oskolok3{
+    margin-left: 0%;
+    position: absolute;
+    margin-top: -0%;
+    animation: move_osk_3 2s linear infinite;
+    
+}
+
+.oskolok4{
+    margin-top: 0%;
+    margin-left: 1.5%;
+    position: absolute;
+    animation: move_osk_4 2s linear infinite;
+}
+
+.oskolok5{
+    margin-top: -2%;
+    margin-left: 18%;
+    position: absolute;
+    animation: move_osk_5 2s linear infinite;
+}
+
+.oskolok6{
+    margin-top: 0%;
+    margin-left: 24.5%;
+    position: absolute;
+    animation: move_osk_6 2s linear infinite;
+}
+
+.oskolok7{
+    margin-top: 0%;
+    margin-left: 52%;
+    position: absolute;
+    animation: move_osk_7 2s linear infinite;
+}
+
+.oskolok8{
+    margin-top: 0%;
+    margin-left: 63%;
+    position: absolute;
+    animation: move_osk_8 2s linear infinite;
+}
+
+.oskolok9{
+    margin-top: 0%;
+    margin-left: 76%;
+    position: absolute;
+    animation: move_osk_9 2s linear infinite;
+}
+
+.oskolok10{
+    margin-top: 5.5%;
+    margin-left: 77%;
+    position: absolute;
+    animation: move_osk_10 2s linear infinite;
+}
+
+.oskolok11{
+    margin-top: 11.5%;
+    margin-left: 82%;
+    position: absolute;
+    animation: move_osk_11 2s linear infinite;
+}
+
+/* Мусор 1 */
+.mov_cont_piece1 {
+  margin-top: 38%;
+  left: -65px;
+  position: absolute;
+  animation: move_piece1 23s linear infinite;
+  width: 302px; 
+  height: 324px; 
+  pointer-events: visible;
+  
+}
+
+.piece1, .hover_piece1 {
+  position: absolute;
+  object-fit: contain; 
+  transition: opacity 0.01s ease;
+  margin: 1% auto;
+  pointer-events: visible;
+  
+}
+
+.piece1 { 
+  opacity: 1;
+}
+.hover_piece1 {
+  opacity: 0;
+}
+.mov_cont_piece1:hover .piece1 {
+  opacity: 0;
+}
+.mov_cont_piece1:hover .hover_piece1 {
+  opacity: 1;
+}
+
+
+
+/* Мусор 2*/
+.piece2 {
+  position: absolute;
+  object-fit: contain; 
+  margin: 1% auto;
+  margin-top: 40%;
+  animation: move_piece2 22.5s linear infinite;
+  animation-delay: -1s;
+}
+
+
+
+
+/* Мусор 3*/
+.mov_cont_piece3 {
+  margin-top: 35%;
+  position: absolute;
+  animation: move_piece3 22.7s linear infinite;
+  width: 223px; 
+  height: 349px; 
+  pointer-events: visible;
+  animation-delay: -2.3s;
+  
+}
+
+.piece3, .hover_piece3 {
+  position: absolute;
+  object-fit: contain; 
+  transition: opacity 0.01s ease;
+  margin: 1% auto;
+  pointer-events: visible;
+  
+}
+
+.piece3 { 
+  opacity: 1;
+}
+.hover_piece3 {
+  opacity: 0;
+}
+.mov_cont_piece3:hover .piece3 {
+  opacity: 0;
+}
+.mov_cont_piece3:hover .hover_piece3 {
+  opacity: 1;
+}
+
+/* Мусор 4*/
+.mov_cont_piece4 {
+  margin-top: 41%;
+  position: absolute;
+  animation: move_piece4 22.7s linear infinite;
+  width: 223px; 
+  height: 349px; 
+  pointer-events: visible;
+  animation-delay: -4.65s;
+  
+}
+
+.piece4, .hover_piece4 {
+  position: absolute;
+  object-fit: contain; 
+  transition: opacity 0.01s ease;
+  margin: 1% auto;
+  pointer-events: visible;
+  
+}
+
+.piece4 { 
+  opacity: 1;
+}
+.hover_piece4 {
+  opacity: 0;
+}
+.mov_cont_piece4:hover .piece4 {
+  opacity: 0;
+}
+.mov_cont_piece4:hover .hover_piece4 {
+  opacity: 1;
+}
+
+
+/* Мусор 5*/
+.piece5 {
+  position: absolute;
+  object-fit: contain; 
+  margin: 1% auto;
+  margin-top: 38%;
+  animation: move_piece5 21.9s linear infinite;
+  animation-delay: -7.7s;
+}
+
+
+/* Мусор 6*/
+.mov_cont_piece6 {
+  margin-top: 41%;
+  position: absolute;
+  animation: move_piece6 21.9s linear infinite;
+  width: 223px; 
+  height: 349px; 
+  pointer-events: visible;
+  animation-delay: -6s;
+  
+}
+
+.piece6, .hover_piece6 {
+  position: absolute;
+  object-fit: contain; 
+  transition: opacity 0.01s ease;
+  margin: 1% auto;
+  pointer-events: visible;
+  
+}
+
+.piece6 { 
+  opacity: 1;
+}
+.hover_piece6 {
+  opacity: 0;
+}
+.mov_cont_piece6:hover .piece6 {
+  opacity: 0;
+}
+.mov_cont_piece6:hover .hover_piece6 {
+  opacity: 1;
+}
+
+
+/* Мусор 7*/
+.mov_cont_piece7 {
+  margin-top: 49%;
+  position: absolute;
+  animation: move_piece7 21.7s linear infinite;
+  width: 223px; 
+  height: 349px; 
+  pointer-events: visible;
+  animation-delay: -9s;
+  
+}
+
+.piece7, .hover_piece7 {
+  position: absolute;
+  object-fit: contain; 
+  transition: opacity 0.01s ease;
+  margin: 1% auto;
+  pointer-events: visible;
+  
+}
+
+.piece7 { 
+  opacity: 1;
+}
+.hover_piece7 {
+  opacity: 0;
+}
+.mov_cont_piece7:hover .piece7 {
+  opacity: 0;
+}
+.mov_cont_piece7:hover .hover_piece7 {
+  opacity: 1;
+}
+
+/* Мусор 9*/
+.piece9 {
+  position: absolute;
+  object-fit: contain; 
+  margin: 1% auto;
+  margin-top: 48%;
+  animation: move_piece9 21.9s linear infinite;
+  animation-delay: -11s;
+} 
+
+/* Мусор 10*/
+ .piece10 {
+  position: absolute;
+  object-fit: contain; 
+  margin: 1% auto;
+  margin-top: 39%;
+  animation: move_piece10 21s linear infinite;
+  animation-delay: -7.6s;
+}
+
+/* Мусор 11*/
+.mov_cont_piece11 {
+  margin-top: 35%;
+  position: absolute;
+  animation: move_piece11 19.5s linear infinite;
+  width: 223px; 
+  height: 349px; 
+  pointer-events: visible;
+  animation-delay: -14s;
+  
+} 
+
+.piece11, .hover_piece11 {
+  position: absolute;
+  object-fit: contain; 
+  transition: opacity 0.01s ease;
+  margin: 1% auto;
+  pointer-events: visible;
+  
+}
+
+.piece11 { 
+  opacity: 1;
+}
+.hover_piece11 {
+  opacity: 0;
+}
+.mov_cont_piece11:hover .piece11 {
+  opacity: 0;
+}
+.mov_cont_piece11:hover .hover_piece11 {
+  opacity: 1;
+}
+
+/* Мусор 12*/
+.mov_cont_piece12 {
+  margin-top: 43%;
+  position: absolute;
+  animation: move_piece12 20.2s linear infinite;
+  pointer-events: visible;
+  animation-delay: -15s;
+  
+} 
+
+.piece12, .hover_piece12 {
+  position: absolute;
+  object-fit: contain; 
+  transition: opacity 0.01s ease;
+  margin: 1% auto;
+  pointer-events: visible;
+  
+}
+
+.piece12 { 
+  opacity: 1;
+}
+.hover_piece12 {
+  opacity: 0;
+}
+.mov_cont_piece12:hover .piece12 {
+  opacity: 0;
+}
+.mov_cont_piece12:hover .hover_piece12 {
+  opacity: 1;
+}
+
+
+/* Мусор 13*/
+.mov_cont_piece13 {
+  margin-top: 43%;
+  position: absolute;
+  animation: move_piece13 19.5s linear infinite;
+  pointer-events: visible;
+  animation-delay: -14.5s;
+  
+}
+
+.piece13, .hover_piece13 {
+  position: absolute;
+  object-fit: contain; 
+  transition: opacity 0.01s ease;
+  margin: 1% auto;
+  pointer-events: visible;
+  
+}
+
+.piece13 { 
+  opacity: 1;
+}
+.hover_piece13 {
+  opacity: 0;
+}
+.mov_cont_piece13:hover .piece13 {
+  opacity: 0;
+}
+.mov_cont_piece13:hover .hover_piece13 {
+  opacity: 1;
+}
+
+/* Мусор 14 */
+.mov_cont_piece14 {
+  margin-top: 49%;
+  position: absolute;
+  animation: move_piece14 19.5s linear infinite;
+  pointer-events: visible;
+  animation-delay: -16.5s;
+  
+}
+
+.piece14, .hover_piece14 {
+  position: absolute;
+  object-fit: contain; 
+  transition: opacity 0.01s ease;
+  margin: 1% auto;
+  pointer-events: visible;
+  
+}
+
+.piece14 { 
+  opacity: 1;
+}
+.hover_piece14 {
+  opacity: 0;
+}
+.mov_cont_piece14:hover .piece14 {
+  opacity: 0;
+}
+.mov_cont_piece14:hover .hover_piece14 {
+  opacity: 1;
+}
+
+/* .section2{
+    width: 100vw;
+    height: ;
+    position: relative;
+} */
+
+.ground_back1{
+    width: 100%;
+    position: absolute;
+    margin-top: 52%;
+    pointer-events: none;
+}
+
+.trash_back{
+    width: 100%;
+    position: absolute;
+    margin-top: 38%;
+    opacity: 45%;
+    pointer-events: none;
+}
+
+
+
+.cursor {
+    position: absolute;
+    margin-top: 26%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 4.5em;
+    border-right: 2px solid rgba(255, 255, 255, 0.928);
+    font-size: 30px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    color: white;
+    font-family: "Inter";
+    font-weight: 200;
+    font-style: italic;
+    letter-spacing: 1.5px;
+}
+
+
+.typewriter-animation {
+    animation: 
+        typewriter 6s steps(15) infinite, 
+        blinkingCursor 0.7s infinite;
+}
+
+
+
+
+
+
+
+

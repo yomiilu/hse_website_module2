@@ -1,0 +1,173 @@
+@keyframes back_stone1{
+    0% {transform: translateY(0);}
+    50% {transform: translateY(-20px);}
+    100% {transform: translateY(0px);}
+}
+
+@keyframes back_stone2{
+    0% {transform: translateY(0);}
+    50% {transform: translateY(-30px);}
+    100% {transform: translateY(0px);}
+}
+
+@keyframes back_stone3{
+    0% {transform: translateY(0);}
+    50% {transform: translateY(-20px);}
+    100% {transform: translateY(0px);}
+}
+
+@keyframes move_osk_1 {
+    0% {transform: translateX(0);}
+    50% {transform: translateX(-20px);}
+    100% {transform: translateX(30px);}
+    100% {transform: translateX(0px);}
+}
+
+@keyframes move_osk_2 {
+    0% {transform: translateX(0);}
+    50% {transform: translateX(-40px);}
+    100% {transform: translateX(10px);}
+    100% {transform: translateX(0px);}
+}
+
+@keyframes move_osk_3 {
+    0% {transform: translateX(0);}
+    50% {transform: translateX(-50px);}
+    100% {transform: translateX(-30px);}
+    100% {transform: translateX(0px);}
+}
+
+@keyframes move_osk_4 {
+    0% {transform: translateX(0);}
+    50% {transform: translateX(-53px);}
+    100% {transform: translateX(30px);}
+    100% {transform: translateX(0px);}
+}
+
+@keyframes move_osk_5 {
+    0% {transform: translateY(0);}
+    50% {transform: translateY(-20px)}
+    100% {transform: translateY(30px)}
+    100% {transform: translateY(0)}
+}
+
+@keyframes move_osk_6 {
+    0% {transform: translateY(0);}
+    50% {transform: translateY(-15px)}
+    100% {transform: translateY(-20px)}
+    100% {transform: translateY(0)}
+}
+
+@keyframes move_osk_7 {
+    0% {transform: translateY(0);}
+    50% {transform: translateY(-30px)}
+    100% {transform: translateY(-50px)}
+    100% {transform: translateY(0)}
+}
+
+@keyframes move_osk_8 {
+    0% {transform: translateY(0);}
+    50% {transform: translateY(-40px)}
+    100% {transform: translateY(-20px)}
+    100% {transform: translateY(0)}
+}
+
+@keyframes move_osk_9 {
+    0% {transform: translateX(0);}
+    50% {transform: translateX(20px);}
+    100% {transform: translateX(-30px);}
+    100% {transform: translateX(0px);}
+}
+
+@keyframes move_osk_10 {
+    0% {transform: translateX(0);}
+    50% {transform: translateX(40px);}
+    100% {transform: translateX(-10px);}
+    100% {transform: translateX(0px);}
+}
+
+@keyframes move_osk_11 {
+    0% {transform: translateX(0);}
+    50% {transform: translateX(40px);}
+    100% {transform: translateX(-30px);}
+    100% {transform: translateX(0px);}
+}
+
+@keyframes move_piece1 {
+  0% {transform: translateX(-20px);}
+  100% {transform: translateX(calc(100vw + 100%));}
+}
+
+@keyframes move_piece2 {
+  0% {transform: translateX(-20px);}
+  100% {transform: translateX(calc(100vw + 100%));}
+}
+
+@keyframes move_piece3 {
+  0% {transform: translateX(-20px);}
+  100% {transform: translateX(calc(100vw + 100%));}
+}
+
+@keyframes move_piece4 {
+  0% {transform: translateX(-20px);}
+  100% {transform: translateX(calc(100vw + 100%));}
+}
+
+@keyframes move_piece5 {
+  0% {transform: translateX(-20px);}
+  100% {transform: translateX(calc(100vw + 100%));}
+}
+
+@keyframes move_piece6 {
+  0% {transform: translateX(-20px);}
+  100% {transform: translateX(calc(100vw + 100%));}
+}
+
+@keyframes move_piece7 {
+  0% {transform: translateX(-20px);}
+  100% {transform: translateX(calc(100vw + 100%));}
+}
+
+@keyframes move_piece9 {
+  0% {transform: translateX(-20px);}
+  100% {transform: translateX(calc(100vw + 100%));}
+}
+
+@keyframes move_piece10 {
+  0% {transform: translateX(-20px);}
+  100% {transform: translateX(calc(100vw + 100%));}
+}
+
+@keyframes move_piece11 {
+  0% {transform: translateX(-20px);}
+  100% {transform: translateX(calc(100vw + 100%));}
+}
+
+@keyframes move_piece12 {
+  0% {transform: translateX(-20px);}
+  100% {transform: translateX(calc(100vw + 100%));}
+}
+
+@keyframes move_piece13 {
+  0% {transform: translateX(-20px);}
+  100% {transform: translateX(calc(100vw + 100%));}
+}
+
+@keyframes move_piece14 {
+  0% {transform: translateX(0);}
+  100% {transform: translateX(calc(100vw + 100%));}
+}
+
+@keyframes typewriter {
+    0% {width: 0;}
+    25% {width: 4.5em;}
+    60% {width: 4.5em;}
+    85% { width: 0;}
+    100% {width: 0;}
+}
+
+@keyframes blinkingCursor {
+    0%, 100% {border-color: transparent;}
+    50% {border-color: rgba(255, 255, 255, 0.75);}
+}
+
