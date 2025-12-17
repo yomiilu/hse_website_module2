@@ -14,3 +14,10 @@
     font-style: italic;
     font-display: swap;
 }
+
+@font-face {
+    font-family: "Inter Medium";
+    src: url("../fonts/Inter_28pt-Medium.ttf") format("woff");
+    font-style: normal; 
+    font-display: swap;
+}

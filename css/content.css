@@ -7,11 +7,13 @@
 html, body {
     width: 100%;
     overflow-x: hidden;
+
 }
 
 .section1{
     width: 100vw;
     height: 110vh;
+    position: relative;
     background: linear-gradient(to bottom, #000000 27%, #353535 100%);
 } 
 
@@ -38,6 +40,7 @@ html, body {
 
 .oskolok1{
     margin-left: 0%;
+    height: auto;
     position: absolute;
     margin-top: 16%;
     animation: move_osk_1 2s linear infinite;
@@ -47,6 +50,7 @@ html, body {
     margin-left: 0%;
     position: absolute;
     margin-top: 9.5%;
+    height: auto;
     animation: move_osk_2 2s linear infinite;
 }
 
@@ -55,6 +59,7 @@ html, body {
     margin-left: 0%;
     position: absolute;
     margin-top: -0%;
+    height: auto;
     animation: move_osk_3 2s linear infinite;
     
 }
@@ -63,6 +68,7 @@ html, body {
     margin-top: 0%;
     margin-left: 1.5%;
     position: absolute;
+    height: auto;
     animation: move_osk_4 2s linear infinite;
 }
 
@@ -70,6 +76,7 @@ html, body {
     margin-top: -2%;
     margin-left: 18%;
     position: absolute;
+    height: auto;
     animation: move_osk_5 2s linear infinite;
 }
 
@@ -464,17 +471,25 @@ html, body {
   opacity: 1;
 }
 
-/* .section2{
+.section2{
     width: 100vw;
-    height: ;
+    height: 174.8vh;
     position: relative;
-} */
+}
 
 .ground_back1{
     width: 100%;
     position: absolute;
     margin-top: 52%;
     pointer-events: none;
+}
+
+.background_s2{
+    width: 100%;
+    position: absolute;
+    margin-top: 3%;
+    pointer-events: none;
+    z-index: 0;
 }
 
 .trash_back{
@@ -511,6 +526,686 @@ html, body {
         typewriter 6s steps(15) infinite, 
         blinkingCursor 0.7s infinite;
 }
+
+
+
+
+
+
+.ground_back2{
+    width: 100%;
+    position: absolute;
+    margin-top: -5%;
+    margin-left: 15%;
+    pointer-events: none;
+    animation: ground_piece2 5s linear infinite;
+}
+
+.trash_s2{
+    position: absolute;
+    margin-top: -14%;
+    margin-left: 56%;
+    pointer-events: none;
+    animation: ground_piece2 5s linear infinite;
+}
+
+.enterprise{
+    position: absolute;
+    width: auto;
+    margin-top: 30%;
+    margin-left: 60%;
+    pointer-events: none;
+}
+
+.enterprise2{
+    position: absolute;
+    width: auto;
+    margin-top: 34.3%;
+    margin-left: 81.9%;
+    pointer-events: none;
+}
+
+
+
+
+
+
+.trash2_s2{
+  position:absolute;
+  top:-100px;
+  left:70%;
+  object-fit:contain;
+  animation: fall_trash2 5s linear infinite;
+  pointer-events:auto;
+  cursor:pointer;
+}
+
+.trash2_s2:hover{
+  animation-play-state:paused;
+}
+
+.trash3_s2{
+  position:absolute;
+  top:-100px;
+  left:76%;
+  object-fit:contain;
+  animation: fall_trash3 5s linear infinite;
+  animation-delay: 1.5s;
+  pointer-events:auto;
+  cursor:pointer;
+}
+.trash3_s2:hover{
+  animation-play-state: paused;
+}
+
+.trash4_s2{
+  position:absolute;
+  top:-100px;
+  left:79%;
+  object-fit:contain;
+  animation: fall_trash4 5s linear infinite;
+  animation-delay: 1s;
+  pointer-events:auto;
+  cursor:pointer;
+}
+.trash4_s2:hover{
+  animation-play-state: paused;
+}
+
+
+.trash5_s2{
+  position:absolute;
+  top:-100px;
+  left:79%;
+  object-fit:contain;
+  animation: fall_trash5 4s linear infinite;
+  animation-delay: 1.4s;
+  pointer-events:auto;
+  cursor:pointer;
+}
+.trash5_s2:hover{
+  animation-play-state: paused;
+}
+
+.trash6_s2{
+  position:absolute;
+  top:-100px;
+  left:79%;
+  object-fit:contain;
+  animation: fall_trash6 8s linear infinite;
+  animation-delay: 1s;
+  pointer-events:auto;
+  cursor:pointer;
+}
+.trash6_s2:hover{
+  animation-play-state: paused;
+}
+
+
+.trash7_s2{
+  position:absolute;
+  top:-100px;
+  left:79%;
+  object-fit:contain;
+  animation: fall_trash7 5s linear infinite;
+  animation-delay: 3s;
+  pointer-events:auto;
+  cursor:pointer;
+}
+.trash7_s2:hover{
+  animation-play-state: paused;
+}
+
+
+.trash8_s2{
+  position:absolute;
+  top:-100px;
+  left:79%;
+  object-fit:contain;
+  animation: fall_trash8 7s linear infinite;
+  animation-delay: 1s;
+  pointer-events:auto;
+  cursor:pointer;
+}
+.trash8_s2:hover{
+  animation-play-state: paused;
+}
+
+
+.trash9_s2{
+  position:absolute;
+  top:-100px;
+  left:74%;
+  object-fit:contain;
+  animation: fall_trash9 6s linear infinite;
+  animation-delay: 1s;
+  pointer-events:auto;
+  cursor:pointer;
+}
+.trash9_s2:hover{
+  animation-play-state: paused;
+}
+
+
+.trash10_s2{
+  position:absolute;
+  top:-100px;
+  left:73%;
+  object-fit:contain;
+  animation: fall_trash10 5s linear infinite;
+  animation-delay: 0s;
+  pointer-events:auto;
+  cursor:pointer;
+}
+.trash10_s2:hover{
+  animation-play-state: paused;
+}
+
+.trash11_s2{
+  position:absolute;
+  top:-100px;
+  left:79%;
+  object-fit:contain;
+  animation: fall_trash11 7s linear infinite;
+  animation-delay: 1.4s;
+  pointer-events:auto;
+  cursor:pointer;
+}
+.trash11_s2:hover{
+  animation-play-state: paused;
+}
+
+
+.trash12_s2{
+  position:absolute;
+  top:-100px;
+  left:74%;
+  object-fit:contain;
+  animation: fall_trash12 8s linear infinite;
+  animation-delay: 1s;
+  pointer-events:auto;
+  cursor:pointer;
+}
+.trash12_s2:hover{
+  animation-play-state: paused;
+}
+
+
+.trash13_s2{
+  position:absolute;
+  top:-100px;
+  left:79%;
+  object-fit:contain;
+  animation: fall_trash13 5s linear infinite;
+  animation-delay: 2s;
+  pointer-events:auto;
+  cursor:pointer;
+}
+.trash13_s2:hover{
+  animation-play-state: paused;
+}
+
+
+.truba1{
+    position: absolute;
+    margin-top: 27%;
+    margin-left: 0%;
+    z-index: 100;
+    cursor: pointer;
+    
+}
+
+.truba1:hover ~ .water_group1 {
+    transition: opacity 0.3s ease;
+    opacity: 0;
+}
+
+.truba2{
+    position: absolute;
+    margin-top: 23%;
+    margin-left: -2%;
+    cursor: pointer;
+    pointer-events: auto;
+}
+
+
+.truba2:hover + .water_group2 {
+    transition: opacity 0.3s ease;
+    opacity: 1;
+}
+
+
+.truba3{
+    position: absolute;
+    margin-top: 24.62%;
+    margin-left: 5.6%;
+    cursor: pointer;
+}
+
+.truba3:hover ~ .water3 {
+    transition: opacity 0.3s ease;
+    opacity: 0;
+}
+
+.water1{
+    position: absolute;
+    margin-top: 38%;
+    margin-left: 12%;
+}
+
+.water2{
+    position: absolute;
+    margin-top: 34.3%;
+    margin-left: 24.5%;
+    opacity: 1;
+}
+
+.water_group2 {
+    position: relative;
+    z-index: 5;
+    opacity: 0;
+}
+
+
+.water3{
+    position: absolute;
+    margin-top: 35.1%;
+    margin-left: 39.4%;
+}
+
+.water4{
+    position: absolute;
+    margin-top: 65.9%;
+    margin-left: 0%;
+    width: 100%;
+    z-index: 5;
+}
+
+.wave1{
+    position: absolute;
+    margin-top: 39.7%;
+    margin-left: 12.9%;
+    animation: wave1 0.7s linear infinite;
+}
+
+.wave2{
+    position: absolute;
+    margin-top: 41.4%;
+    margin-left: 16.9%;
+    animation: wave1 1.2s linear infinite;
+}
+
+.wave3{
+    position: absolute;
+    margin-top: 47%;
+    margin-left: 19.4%;
+    animation: wave3 0.7s linear infinite;
+}
+
+.wave4{
+    position: absolute;
+    margin-top: 52.4%;
+    margin-left: 22.9%;
+    animation: wave3 1.2s linear infinite;
+}
+
+.wave5{
+    position: absolute;
+    margin-top: 54%;
+    margin-left: 23.3%;
+    animation: wave5 0.8s linear infinite;
+}
+
+.wave6{
+    position: absolute;
+    margin-top: 54%;
+    margin-left: 24.2%;
+    animation: wave3 1s linear infinite;
+}
+
+.wave7{
+    position: absolute;
+    margin-top: 36%;
+    margin-left: 25.4%;
+    animation: wave1 0.7s linear infinite;
+}
+
+.wave8{
+    position: absolute;
+    margin-top: 37.7%;
+    margin-left: 26.9%;
+    animation: wave1 1.2s linear infinite;
+}
+
+.wave9{
+    position: absolute;
+    margin-top: 43.3%;
+    margin-left: 28.4%;
+    animation: wave3 0.7s linear infinite;
+}
+
+.wave10{
+    position: absolute;
+    margin-top: 48.7%;
+    margin-left: 30.9%;
+    animation: wave3 1.2s linear infinite;
+}
+
+.pena1{
+    position: absolute;
+    margin-top: 68%;
+    z-index: 1000;
+    margin-left: 20%;
+    animation: pena1 4s linear infinite;
+    z-index: 7;
+}
+
+
+.pena2{
+    position: absolute;
+    z-index: 1000;
+    margin-top: 68.4%;
+    margin-left: 20%;
+    animation: pena2 4s linear infinite;
+    z-index: 7;
+}
+
+
+.back_water2{
+    position: absolute;
+    width: 100vw;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 75%;
+    z-index: 1;     
+    pointer-events: none;
+    animation: back_water2 4s linear infinite;
+}
+
+.back_water1{
+    position: absolute;
+    width: 100vw;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 75%;
+    z-index: 2;     
+    pointer-events: none;
+    animation: back_water2 3s linear infinite;
+}
+
+.section3{
+    width: 100vw;
+    height: 93.8vh;
+    position: relative;
+}
+
+.section4{
+    width: 100vw;
+    height: 79vh;
+    position: relative;
+}
+
+.background3{
+    width: 100%;
+    position: absolute;
+    margin-top: -1%;
+    pointer-events: none;
+    z-index: 3;
+}
+
+.after_pena{
+    width: 8vw;
+    height: 30vw;
+    margin-left: 10%;
+
+}
+
+
+.after_pena1{
+    position: absolute;
+    z-index: 5; /* behind .gallery (z-index: 6) */
+    margin-top: 73%;
+    margin-left: 25%;
+    animation: after_pena1 3s linear infinite;
+}
+
+.after_pena1:hover{
+  animation-play-state:paused;
+}
+
+.after_pena2{
+    position: absolute;
+    z-index: 6;
+    margin-top: 70%;
+    margin-left: 18%;
+    animation: after_pena2 6s linear infinite;
+}
+
+.after_pena2:hover{
+  animation-play-state:paused;
+}
+
+.after_pena3{
+    position: absolute;
+    z-index: 6;
+    margin-top: 71%;
+    margin-left: 19%;
+    animation: after_pena1 4s linear infinite;
+}
+
+.after_pena3:hover{
+  animation-play-state:paused;
+}
+
+.after_pena4{
+    position: absolute;
+    z-index: 6;
+    margin-top: 80%;
+    margin-left: 33%;
+    animation: after_pena2 6s linear infinite;
+}
+
+.after_pena4:hover{
+  animation-play-state:paused;
+}
+
+.after_pena5{
+    position: absolute;
+    z-index: 6;
+    margin-top: 71%;
+    margin-left: 40%;
+    animation: after_pena2 4s linear infinite;
+}
+
+.after_pena5:hover{
+  animation-play-state:paused;
+}
+
+.after_pena6{
+    position: absolute;
+    z-index: 6;
+    margin-top: 71%;
+    margin-left: 37%;
+    animation: after_pena1 3s linear infinite;
+}
+
+.after_pena6:hover{
+  animation-play-state:paused;
+}
+
+
+.gallery{
+    position: absolute;
+    z-index: 6;
+    margin-top: 2%;
+    margin-left: 4.5vw;
+}
+
+.purple_1{
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    margin-top: 25%;
+}
+
+.purple_2{
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    margin-top: 30%;
+}
+
+.purple_3{
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    margin-top: 34.65%;
+}
+
+.background4{
+    width: 100%;
+    position: absolute;
+    pointer-events: none;
+    z-index: 3;
+}
+
+.path{
+    position: absolute;
+    margin-top: 4.2%;
+    pointer-events: none;
+    z-index: 4;
+}
+
+.podval{
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 34%;
+    pointer-events: none;
+    z-index: 4;
+}
+
+
+.window1{
+  margin-top: 25.1%;
+  margin-left: 10.55%;
+  position: absolute;  
+  z-index: 7;
+}
+
+.window_dark, .window_light {
+  position: absolute;
+  object-fit: contain; 
+  transition: opacity 0.7s ease;
+  margin: 1% auto;
+  pointer-events: visible;
+  
+}
+
+.window_dark { 
+  opacity: 1;
+}
+.window_light {
+  opacity: 0;
+}
+.window1:hover .window_dark {
+  opacity: 0;
+}
+.window1:hover .window_light {
+  opacity: 1;
+}
+
+
+.window3{
+  margin-top: 25.1%;
+  margin-left: 85.67%;
+  position: absolute;  
+  z-index: 7;
+}
+
+.window_dark3, .window_light3 {
+  position: absolute;
+  object-fit: contain; 
+  transition: opacity 0.7s ease;
+  margin: 1% auto;
+  pointer-events: visible;
+  
+}
+
+.window_dark3 { 
+  opacity: 1;
+}
+.window_light3 {
+  opacity: 0;
+}
+.window3:hover .window_dark3 {
+  opacity: 0;
+}
+.window3:hover .window_light3 {
+  opacity: 1;
+}
+
+.window2{
+  margin-top: 38.58%;
+  margin-left: 10.2%;
+  position: absolute;  
+  z-index: 7;
+}
+
+.window_dark2, .window_light2 {
+  position: absolute;
+  object-fit: contain; 
+  transition: opacity 0.7s ease;
+  margin: 1% auto;
+  pointer-events: visible;
+  
+}
+
+.window_dark2 { 
+  opacity: 1;
+}
+.window_light2 {
+  opacity: 0;
+}
+.window2:hover .window_dark2 {
+  opacity: 0;
+}
+.window2:hover .window_light2 {
+  opacity: 1;
+}
+
+
+.avtor{
+    position: absolute;
+    margin-top: 28.7vh;
+    margin-left: 42vw;
+    z-index: 5;
+    animation: avtor 6s linear infinite;
+}
+
+.avtor_text{
+    position: absolute;
+    margin-top: 18vw;
+    margin-left: 44vw;
+    z-index: 6;
+    animation: avtor 6s linear infinite;
+    font-family: "Inter Medium"; 
+    font-style: normal;
+}
+
+.curator{
+    position: absolute;
+    margin-top: 28.7vh;
+    margin-left: 70.5vw;
+    z-index: 5;
+    animation: curator 6s linear infinite;
+}
+
+
+
+
+
+
+
 
 
 
