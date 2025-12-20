@@ -39,8 +39,7 @@ html, body {
 }
 
 .oskolok1{
-    margin-left: 0%;
-    height: auto;
+    margin-left: 0;
     position: absolute;
     margin-top: 16%;
     animation: move_osk_1 2s linear infinite;
@@ -122,14 +121,24 @@ html, body {
     animation: move_osk_11 2s linear infinite;
 }
 
+/* .oskolok1{width:18vw;}
+.oskolok2{width:20vw;}
+.oskolok3{width:21vw;}
+.oskolok4{width:25vw;}
+.oskolok5{width:18vw;}
+.oskolok6{width:18vw;}
+.oskolok7{width:16vw;}
+.oskolok8{width:25vw;}
+.oskolok9{width:25vw;}
+.oskolok10{width:25vw;}
+.oskolok11{width:25vw;} */
+
 /* Мусор 1 */
 .mov_cont_piece1 {
   margin-top: 38%;
   left: -65px;
   position: absolute;
   animation: move_piece1 23s linear infinite;
-  width: 302px; 
-  height: 324px; 
   pointer-events: visible;
   
 }
@@ -176,8 +185,6 @@ html, body {
   margin-top: 35%;
   position: absolute;
   animation: move_piece3 22.7s linear infinite;
-  width: 223px; 
-  height: 349px; 
   pointer-events: visible;
   animation-delay: -2.3s;
   
@@ -209,11 +216,9 @@ html, body {
 .mov_cont_piece4 {
   margin-top: 41%;
   position: absolute;
-  animation: move_piece4 22.7s linear infinite;
-  width: 223px; 
-  height: 349px; 
   pointer-events: visible;
   animation-delay: -4.65s;
+  animation: move_piece4 22.7s linear infinite;
   
 }
 
@@ -256,8 +261,7 @@ html, body {
   margin-top: 41%;
   position: absolute;
   animation: move_piece6 21.9s linear infinite;
-  width: 223px; 
-  height: 349px; 
+
   pointer-events: visible;
   animation-delay: -6s;
   
@@ -291,8 +295,6 @@ html, body {
   margin-top: 49%;
   position: absolute;
   animation: move_piece7 21.7s linear infinite;
-  width: 223px; 
-  height: 349px; 
   pointer-events: visible;
   animation-delay: -9s;
   
@@ -345,8 +347,6 @@ html, body {
   margin-top: 35%;
   position: absolute;
   animation: move_piece11 19.5s linear infinite;
-  width: 223px; 
-  height: 349px; 
   pointer-events: visible;
   animation-delay: -14s;
   
@@ -471,6 +471,7 @@ html, body {
   opacity: 1;
 }
 
+
 .section2{
     width: 100vw;
     height: 174.8vh;
@@ -517,7 +518,7 @@ html, body {
     font-family: "Inter";
     font-weight: 200;
     font-style: italic;
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
 }
 
 
@@ -526,10 +527,6 @@ html, body {
         typewriter 6s steps(15) infinite, 
         blinkingCursor 0.7s infinite;
 }
-
-
-
-
 
 
 .ground_back2{
@@ -564,10 +561,6 @@ html, body {
     margin-left: 81.9%;
     pointer-events: none;
 }
-
-
-
-
 
 
 .trash2_s2{
@@ -746,6 +739,43 @@ html, body {
 }
 
 
+
+.cursor2 {
+    position: absolute;
+    z-index: 6;
+    margin-top: 18%;
+    left: 34%;
+    transform: translate(-50%, -50%);
+    width: 11.5em;
+    border-right: 2px solid rgba(255, 255, 255, 0.928);
+    font-size: 30px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    color: white;
+    font-family: "Inter";
+    font-weight: 200;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+
+.typewriter-animation2 {
+    animation: 
+        typewriter2 14s steps(30) infinite, 
+        blinkingCursor 0.7s infinite;
+}
+
+@keyframes typewriter2 {
+    0% {width: 0;}
+    25% {width: 11.5em;}
+    60% {width: 11.5em;}
+    85% { width: 0;}
+    100% {width: 0;}
+}
+
+
+
 .truba1{
     position: absolute;
     margin-top: 27%;
@@ -865,30 +895,45 @@ html, body {
 
 .wave7{
     position: absolute;
-    margin-top: 36%;
-    margin-left: 25.4%;
+    margin-top: 34.2%;
+    margin-left: 26.4%;
     animation: wave1 0.7s linear infinite;
 }
 
 .wave8{
     position: absolute;
-    margin-top: 37.7%;
-    margin-left: 26.9%;
+    margin-top: 35.7%;
+    margin-left: 29.4%;
     animation: wave1 1.2s linear infinite;
 }
 
 .wave9{
     position: absolute;
-    margin-top: 43.3%;
-    margin-left: 28.4%;
+    margin-top: 49.3%;
+    margin-left: 33.4%;
     animation: wave3 0.7s linear infinite;
 }
 
 .wave10{
     position: absolute;
     margin-top: 48.7%;
-    margin-left: 30.9%;
+    margin-left: 35.9%;
     animation: wave3 1.2s linear infinite;
+}
+
+.wave11{
+    position: absolute;
+    margin-top: 54%;
+    margin-left: 43%;
+    animation: wave3 1.2s linear infinite;
+}
+
+.wave12{
+    position: absolute;
+    width: 2vw;
+    margin-top: 48%;
+    margin-left: 43%;
+    animation: wave3 0.7s linear infinite;
 }
 
 .pena1{
@@ -1037,7 +1082,7 @@ html, body {
 .gallery{
     position: absolute;
     z-index: 6;
-    margin-top: 2%;
+    margin-top: 3%;
     margin-left: 4.5vw;
 }
 
@@ -1046,6 +1091,7 @@ html, body {
     z-index: 5;
     width: 100%;
     margin-top: 25%;
+    animation: purple1 3s linear infinite;
 }
 
 .purple_2{
@@ -1053,6 +1099,7 @@ html, body {
     z-index: 5;
     width: 100%;
     margin-top: 30%;
+    animation: purple1 3s linear infinite;
 }
 
 .purple_3{
@@ -1060,6 +1107,7 @@ html, body {
     z-index: 5;
     width: 100%;
     margin-top: 34.65%;
+    animation: purple1 3s linear infinite;
 }
 
 .background4{
@@ -1076,6 +1124,132 @@ html, body {
     z-index: 4;
 }
 
+.sled1{
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 0.5%;
+    pointer-events: none;
+    z-index: 5;
+    animation: sled-fade 6s infinite;
+}
+
+.sled2{
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 1.5%;
+    pointer-events: none;
+    z-index: 6;
+    animation: sled-fade 6s infinite;
+}
+
+.sled3{
+    position: absolute;
+    margin-top: 16.5%;
+    margin-left: 16%;
+    pointer-events: none;
+    z-index: 6;
+    animation: sled-fade 6s infinite;
+}
+
+.sled4{
+    position: absolute;
+    margin-top: 11%;
+    margin-left: 20%;
+    pointer-events: none;
+    z-index: 6;
+    animation: sled-fade 6s infinite;
+}
+
+.sled5{
+    position: absolute;
+    margin-top: 10.5%;
+    margin-left: 30%;
+    pointer-events: none;
+    z-index: 6;
+    animation: sled-fade 6s infinite;
+}
+
+.sled6{
+    position: absolute;
+    margin-top: 7.5%;
+    margin-left: 32%;
+    pointer-events: none;
+    z-index: 6;
+    animation: sled-fade 6s infinite;
+}
+
+.sled7{
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 39%;
+    pointer-events: none;
+    z-index: 6;
+    animation: sled-fade 6s infinite;
+}
+
+.sled8{
+    position: absolute;
+    margin-top: 5.3%;
+    margin-left: 42%;
+    pointer-events: none;
+    z-index: 6;
+    animation: sled-fade 6s infinite;
+}
+
+.sled1 { animation-delay: 0s; }
+.sled2 { animation-delay: 1s; }
+.sled3 { animation-delay: 2s; }
+.sled4 { animation-delay: 3s; }
+.sled5 { animation-delay: 4s; }
+.sled6 { animation-delay: 5s; }
+.sled7 { animation-delay: 6s; }
+.sled8 { animation-delay: 7s; }
+
+.door{
+  position:absolute;
+  width:14%;
+  height: 30%;
+  margin-top: 41.8%;
+  margin-left: 42.4%;
+  z-index: 7;
+}
+
+.door2{
+  position:absolute;
+  top:7.9%;
+  left:12.3%;
+  object-fit:contain;
+  animation: open_left 8s linear infinite;
+  animation-delay: 0.7s;
+}
+
+.door3{
+  position:absolute;
+  top:7.9%;
+  left:51%;
+  object-fit:contain;
+  animation: open_right 8s linear infinite;
+  animation-delay: 0.7s;
+}
+
+.wall_left{
+    position: absolute;
+    margin-top: 14.94%;
+    margin-left: 39.95%;
+    pointer-events: none;
+    z-index: 8;
+}
+
+.wall_right{
+    position: absolute;
+    margin-top: 14.98%;
+    margin-left: 55%;
+    pointer-events: none;
+    z-index: 8;
+    
+}
+
+
 .podval{
     position: absolute;
     margin-top: 16%;
@@ -1086,7 +1260,7 @@ html, body {
 
 
 .window1{
-  margin-top: 25.1%;
+  margin-top: 26.1%;
   margin-left: 10.55%;
   position: absolute;  
   z-index: 7;
@@ -1116,7 +1290,7 @@ html, body {
 
 
 .window3{
-  margin-top: 25.1%;
+  margin-top: 26.1%;
   margin-left: 85.67%;
   position: absolute;  
   z-index: 7;
@@ -1145,7 +1319,7 @@ html, body {
 }
 
 .window2{
-  margin-top: 38.58%;
+  margin-top: 39.58%;
   margin-left: 10.2%;
   position: absolute;  
   z-index: 7;
@@ -1173,6 +1347,66 @@ html, body {
   opacity: 1;
 }
 
+.glass1{
+  position: absolute;
+  width: 35vw;
+  margin-top: 0%;
+  margin-left: -7%;
+  z-index: 7;
+}
+
+.glass1:hover {
+  margin-left: -2%;
+  pointer-events: auto; 
+}
+
+.glass2{
+  position: absolute;
+  width: 35vw;
+  margin-top: 2%;
+  margin-left: -11%;
+  z-index: 8;
+  transition: margin-left 0.1s ease;
+}
+
+.glass2:hover {
+  margin-left: -2%;
+  pointer-events: auto; 
+}
+
+.flower1{
+  position: absolute;
+  width: 12.9vw;
+  margin-top: -10%;
+  margin-left: 3%;
+  z-index: 8;
+}
+
+.flower2{
+  position: absolute;
+  width: 12.9vw;
+  margin-top: -10%;
+  margin-left: 3%;
+  z-index: 8;
+}
+
+.flower3{
+  position: absolute;
+  width: 12.9vw;
+  margin-top: -10%;
+  margin-left: 3%;
+  z-index: 8;
+}
+
+.flowers_group1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 6; /* Подними, если нужно */
+}
+
 
 .avtor{
     position: absolute;
@@ -1188,7 +1422,7 @@ html, body {
     margin-left: 44vw;
     z-index: 6;
     animation: avtor 6s linear infinite;
-    font-family: "Inter Medium"; 
+    font-family: "Inter_Medium"; 
     font-style: normal;
 }
 
