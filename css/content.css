@@ -1181,7 +1181,7 @@ html, body {
 .path{
     position: absolute;
     margin-top: 4.2%;
-    width: 72.9;
+    width: 55.35vw;
     pointer-events: none;
     z-index: 4;
 }
@@ -1324,12 +1324,29 @@ html, body {
 
 .wall_right{
     position: absolute;
-    margin-top: 14.94%;
-    margin-left: 55%;
+    margin-top: 14.95%;
+    margin-left: 55.3%;
     pointer-events: none;
     z-index: 8;
-    width: 3.75vw;
-    
+    width: 3.75vw; 
+}
+
+.column1{
+    position: absolute;
+    margin-top: 10.8%;
+    margin-left: 36%;
+    pointer-events: none;
+    z-index: 30;
+    width: 4.5vw;
+}
+
+.column2{
+    position: absolute;
+    margin-top: 10.9%;
+    margin-left: 58.5%;
+    pointer-events: none;
+    z-index: 30;
+    width: 4.5vw;
 }
 
 
