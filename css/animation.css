@@ -439,4 +439,17 @@
   80%,100%{left:12.3%;}
 }
 
+@keyframes intenseSway {
+  0%, 100% {transform: rotate(-2.5deg);}
+  25% {transform: rotate(4deg);}
+  50% {transform: rotate(-1deg);}
+  75% {transform: rotate(3.5deg);}
+}
+
+@keyframes leftSwayPlus {
+  0%, 100% {transform: rotate(0deg);}
+  25% {transform: rotate(-4deg);}
+  50% {transform: rotate(-1.5deg);}
+  75% {transform: rotate(-6deg);}
+}
 

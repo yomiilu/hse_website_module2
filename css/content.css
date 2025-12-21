@@ -11,8 +11,8 @@ html, body {
 }
 
 .section1{
-    width: 100vw;
-    height: 110vh;
+    width: 100%;
+    height: 61vw;
     position: relative;
     background: linear-gradient(to bottom, #000000 27%, #353535 100%);
 } 
@@ -496,8 +496,9 @@ html, body {
 
 .section2{
     width: 100%;
-    height: 174.8vh;
+    height: 98.6vw;
     position: relative;
+    background-size: 100%;
 }
 
 .ground_back1{
@@ -778,10 +779,10 @@ html, body {
 .cursor2 {
     position: absolute;
     z-index: 6;
-    margin-top: 18%;
+    margin-top: 17%;
     left: 34%;
     transform: translate(-50%, -50%);
-    width: 11.5em;
+    width: 12em;
     border-right: 0.138vw solid rgba(255, 255, 255, 0.928);
     font-size: 30px;
     text-align: center;
@@ -803,8 +804,8 @@ html, body {
 
 @keyframes typewriter2 {
     0% {width: 0;}
-    25% {width: 11.5em;}
-    60% {width: 11.5em;}
+    25% {width: 12em;}
+    60% {width: 12em;}
     85% { width: 0;}
     100% {width: 0;}
 }
@@ -1035,13 +1036,13 @@ html, body {
 
 .section3{
     width: 100vw;
-    height: 93.8vh;
+    height: 53.1vw;
     position: relative;
 }
 
 .section4{
     width: 100vw;
-    height: 79vh;
+    height: 40vw;
     position: relative;
 }
 
@@ -1280,7 +1281,7 @@ html, body {
   width: 14vw;
   margin-top: 41.85%;
   margin-left: 42.4%;
-  z-index: 7;
+  z-index: 110;
 }
 
 .door1{
@@ -1288,7 +1289,7 @@ html, body {
   width: 14vw;
   margin-top: 0%;
   margin-left: 0%;
-  z-index: 5;
+  z-index: 110;
 }
 
 .door2{
@@ -1299,7 +1300,7 @@ html, body {
   object-fit:contain;
   animation: open_left 8s linear infinite;
   animation-delay: 0.7s;
-  z-index: 8;
+  z-index: 110;
 }
 
 .door3{
@@ -1310,7 +1311,15 @@ html, body {
   object-fit:contain;
   animation: open_right 8s linear infinite;
   animation-delay: 0.7s;
-  z-index: 7;
+  z-index: 110;
+}
+
+.door4{
+  position:absolute;
+  margin-left: 42.45%;
+  width: 14.03vw;
+  margin-top: 41.8%;
+  z-index: 5000;
 }
 
 .wall_left{
@@ -1318,7 +1327,7 @@ html, body {
     margin-top: 14.94%;
     margin-left: 39.95%;
     pointer-events: none;
-    z-index: 8;
+    z-index: 120;
     width: 3.75vw;
 }
 
@@ -1327,7 +1336,7 @@ html, body {
     margin-top: 14.95%;
     margin-left: 55.3%;
     pointer-events: none;
-    z-index: 8;
+    z-index: 120;
     width: 3.75vw; 
 }
 
@@ -1336,7 +1345,7 @@ html, body {
     margin-top: 10.8%;
     margin-left: 36%;
     pointer-events: none;
-    z-index: 30;
+    z-index: 1000;
     width: 4.5vw;
 }
 
@@ -1345,7 +1354,7 @@ html, body {
     margin-top: 10.9%;
     margin-left: 58.5%;
     pointer-events: none;
-    z-index: 30;
+    z-index: 1000;
     width: 4.5vw;
 }
 
@@ -1465,10 +1474,12 @@ html, body {
 
 .glass1{
   position: absolute;
-  width: 35vw;
+  width: 32vw;
   margin-top: 0%;
   margin-left: -7%;
+  pointer-events: visible; 
   z-index: 7;
+  transition: margin-left 0.5s ease;
 }
 
 .glass1:hover {
@@ -1478,12 +1489,12 @@ html, body {
 
 .glass2{
   position: absolute;
-  width: 35vw;
+  width: 32vw;
   margin-top: 2%;
   margin-left: -11%;
   z-index: 8;
   pointer-events: visible; 
-  transition: margin-left 0.1s ease;
+  transition: margin-left 0.5s ease;
 }
 
 .glass2:hover {
@@ -1569,21 +1580,6 @@ html, body {
   animation: leftSwayPlus 4s ease-in-out infinite;
 }
 
-@keyframes leftSwayPlus {
-  0%, 100% {transform: rotate(0deg);}
-  25% {transform: rotate(-4deg);}
-  50% {transform: rotate(-1.5deg);}
-  75% {transform: rotate(-6deg);}
-}
-
-.flower3{
-  position: absolute;
-  width: 13.19vw;
-  margin-top: -30%;
-  margin-left: 3%;
-  pointer-events: none;
-  z-index: 8;
-}
 
 .flower3 {
   position: absolute;
@@ -1596,12 +1592,6 @@ html, body {
   animation: intenseSway 5s ease-in-out infinite;
 }
 
-@keyframes intenseSway {
-  0%, 100% {transform: rotate(-2.5deg);}
-  25% {transform: rotate(4deg);}
-  50% {transform: rotate(-1deg);}
-  75% {transform: rotate(3.5deg);}
-}
 
 .flower4{
   position: absolute;
@@ -1609,16 +1599,90 @@ html, body {
   margin-top: -25%;
   margin-left: 0%;
   z-index: 6;
+  pointer-events: none;
   animation: leftSwayPlus 3s ease-in-out infinite;
 }
+
+.flower5{
+  position: absolute;
+  width: 14.51vw;
+  margin-top: 29%;
+  margin-left: 36%;
+  pointer-events: none;
+  z-index: 121;
+}
+
+.flower6{
+  position: absolute;
+  width: 24.38vw;
+  margin-top: 24%;
+  margin-left: 26%;
+  pointer-events: none;
+  z-index: 123;
+}
+
+.flower7{
+  position: absolute;
+  width: 10.49vw;
+  margin-top: 24%;
+  margin-left: 36%;
+  pointer-events: none;
+  z-index: 1200;
+}
+
+.flower8{
+  position: absolute;
+  width: 17.71vw;
+  margin-top: 30%;
+  margin-left: 35%;
+  pointer-events: none;
+  z-index: 13;
+}
+
+.flower9{
+  position: absolute;
+  width: 12.57vw;
+  margin-top: 30%;
+  margin-left: 35%;
+  pointer-events: none;
+  z-index: 13;
+}
+
+.flower10{
+  position: absolute;
+  width: 30.63vw;
+  margin-top: 30%;
+  margin-left: 35%;
+  pointer-events: none;
+  z-index: 13;
+}
+
+.flower11{
+  position: absolute;
+  width: 13.19vw;
+  margin-top: 30%;
+  margin-left: 35%;
+  pointer-events: none;
+  z-index: 13;
+}
+
+.flower12{
+  position: absolute;
+  width: 6.67vw;
+  margin-top: 30%;
+  margin-left: 35%;
+  pointer-events: none;
+  z-index: 13;
+}
+
 
 
 
 
 .avtor{
     position: absolute;
-    margin-top: 28.7vh;
-    margin-left: 42vw;
+    margin-top: 16.2%;
+    margin-left: 42%;
     z-index: 15;
     width: 22.78vw;
     animation: avtor 6s linear infinite;
@@ -1636,7 +1700,7 @@ html, body {
 
 .curator{
     position: absolute;
-    margin-top: 28.7vh;
+    margin-top: 16.2%;
     margin-left: 70.5vw;
     z-index: 15;
     width: 22.78vw;
