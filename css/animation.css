@@ -422,7 +422,7 @@
 
 @keyframes sled-fade {
     0% { opacity: 0; }
-    5% { opacity: 0.5; }
+    5% { opacity: 0.8; }
     15% { opacity: 1; }
     100% { opacity: 0; }
 }
