@@ -446,10 +446,31 @@
   75% {transform: rotate(3.5deg);}
 }
 
+@keyframes intenseSway2 {
+  0%, 100% {transform: rotate(-2deg);}
+  25% {transform: rotate(2deg);}
+  50% {transform: rotate(-1deg);}
+  75% {transform: rotate(2.5deg);}
+}
+
 @keyframes leftSwayPlus {
   0%, 100% {transform: rotate(0deg);}
   25% {transform: rotate(-4deg);}
   50% {transform: rotate(-1.5deg);}
   75% {transform: rotate(-6deg);}
+}
+
+@keyframes leftSwayPlus2 {
+  0%, 100% {transform: rotate(0deg);}
+  25% {transform: rotate(-2.5deg);}
+  50% {transform: rotate(-0.8deg);}  
+  75% {transform: rotate(-3.5deg);}  
+}
+
+@keyframes rightSwayPlus {
+  0%, 100% {transform: rotate(0deg);}
+  25% {transform: rotate(2.5deg);}
+  50% {transform: rotate(0.8deg);}
+  75% {transform: rotate(3.5deg);}
 }
 
