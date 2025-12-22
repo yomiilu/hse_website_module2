@@ -1720,14 +1720,60 @@ html, body {
 
 
 
+.flip-word {
+  display: inline-block;
+  perspective: 27.7vw;
+  font-family: "Inter_Medium";
+  font-size: 1.39vw;
+  z-index: 30;
+  position: absolute; /* не fixed! */
+  top: 60%; /* относительно .section1 */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  animation: avtor 6s linear infinite;
+}
 
+.flipper {
+  position: relative;
+  width: 100%;
+  height: 2.78vw;
+  transform-style: preserve-3d;
+  animation: flipWord 5s infinite ease-in-out;
+  z-index: 30;
+}
 
+.front, .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  color: black;
+  z-index: 30;
+  display: flex;
+  align-items: center;
+}
 
+.front {
+  transform: rotateX(0deg);
+  z-index: 30;
+  justify-content: flex-start; 
+}
 
+.back {
+  transform: rotateX(180deg);
+  z-index: 30;
+  justify-content: flex-start; 
+}
 
-
-
-
-
-
-
+@keyframes flipWord {
+  0%, 45% {
+    transform: rotateX(0deg);
+  }
+  50%, 95% {
+    transform: rotateX(180deg);
+  }
+  100% {
+    transform: rotateX(360deg);
+  }
+}

@@ -1,5 +1,569 @@
 @media screen and (min-width: 360px) and (max-width: 450px)  {
-/*  мобилка  */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+
+}
+
+.section1{
+    width: 100%;
+    height: 156vw;
+    position: relative;
+    background: linear-gradient(to bottom, #000000 27%, #353535 100%);
+} 
+
+
+.back_stone1{
+    margin-left: -50vw;
+    position: absolute;
+    width: 200vw; 
+    animation: back_stone1 4s linear infinite;
+}
+
+.back_stone2{
+    margin-left: -50vw;
+    position: absolute;
+    width: 200vw;
+    animation: back_stone2 4s linear infinite;
+}
+
+.back_stone3{
+    margin-left: -50vw;
+    position: absolute;
+    width: 200vw; 
+    animation: back_stone3 5s linear infinite;
+}
+
+.oskolok1{
+    margin-left: 0;
+    position: absolute;
+    margin-top: 45%;
+    animation: move_osk_1 2s linear infinite;
+}
+
+.oskolok2{
+    margin-left: 0%;
+    position: absolute;
+    margin-top: 34%;
+    height: auto;
+    animation: move_osk_2 2s linear infinite;
+}
+
+
+.oskolok3{
+    margin-left: -8%;
+    position: absolute;
+    margin-top: 15%;
+    height: auto;
+    animation: move_osk_3 2s linear infinite;
+    
+}
+
+.oskolok4{
+    margin-top: 0%;
+    margin-left: -8%;
+    position: absolute;
+    height: auto;
+    animation: move_osk_4 2s linear infinite;
+}
+
+.oskolok5{
+    margin-top: 0%;
+    margin-left: 12%;
+    position: absolute;
+    height: auto;
+    animation: move_osk_5 2s linear infinite;
+}
+
+.oskolok6{
+    margin-top: 0%;
+    margin-left: 13%;
+    position: absolute;
+    animation: move_osk_6 2s linear infinite;
+}
+
+.oskolok7{
+    margin-top: -4%;
+    margin-left: 57%;
+    position: absolute;
+    animation: move_osk_7 2s linear infinite;
+}
+
+.oskolok8{
+    margin-top: 0%;
+    margin-left: 74%;
+    position: absolute;
+    animation: move_osk_8 2s linear infinite;
+}
+
+@keyframes move_osk_8 {
+    0% {transform: translateY(0);}
+    50% {transform: translateY(-10px)}
+    100% {transform: translateY(1px)}
+    100% {transform: translateY(0)}
+}
+
+.oskolok9{
+    margin-top: 12%;
+    margin-left: 80%;
+    position: absolute;
+    animation: move_osk_9 2s linear infinite;
+}
+
+.oskolok10{
+    margin-top: 15%;
+    margin-left: 77%;
+    position: absolute;
+    animation: move_osk_10 2s linear infinite;
+}
+
+.oskolok11{
+    margin-top: 40%;
+    margin-left: 75%;
+    position: absolute;
+    animation: move_osk_11 2s linear infinite;
+}
+
+.oskolok1 { width: 30vw; }
+.oskolok2 { width: 32vw; }
+.oskolok3 { width: 40vw; }
+.oskolok4 { width: 35vw; }
+.oskolok5 { width: 33vw; }
+.oskolok6 { width: 40vw; }
+.oskolok7 { width: 28vw; }
+.oskolok8 { width: 35vw; }
+.oskolok9 { width: 38vw; }
+.oskolok10 { width: 40vw; }
+.oskolok11 { width: 40vw; }
+
+/* Мусор 1 */
+.mov_cont_piece1 {
+  margin-top: 103%;
+  left: -4.51vw;
+  width: 33.33vw;
+  position: absolute;
+  animation: move_piece1 23s linear infinite;
+  pointer-events: visible;
+  
+}
+
+.piece1, .hover_piece1 {
+  position: absolute;
+  width: 33.33vw;
+  object-fit: contain; 
+  transition: opacity 0.01s ease;
+  margin: 1% auto;
+  pointer-events: visible;
+  
+}
+
+.piece1 { 
+  opacity: 1;
+}
+.hover_piece1 {
+  opacity: 0;
+}
+.mov_cont_piece1:hover .piece1 {
+  opacity: 0;
+}
+.mov_cont_piece1:hover .hover_piece1 {
+  opacity: 1;
+}
+
+
+
+/* Мусор 2*/
+.piece2 {
+  position: absolute;
+  object-fit: contain; 
+  margin: 1% auto;
+  margin-top: 105%;
+  width: 32.5vw;
+  animation: move_piece2 22.5s linear infinite;
+  animation-delay: -1s;
+}
+
+
+
+
+/* Мусор 3*/
+.mov_cont_piece3 {
+  margin-top: 100%;
+  position: absolute;
+  animation: move_piece3 22.7s linear infinite;
+  pointer-events: visible;
+  animation-delay: -2.3s;
+  width: 35.49vw;
+  
+}
+
+.piece3, .hover_piece3 {
+  position: absolute;
+  object-fit: contain; 
+  transition: opacity 0.01s ease;
+  margin: 1% auto;
+  pointer-events: visible;
+  width: 35.49vw;
+  
+}
+
+.piece3 { 
+  opacity: 1;
+}
+.hover_piece3 {
+  opacity: 0;
+}
+.mov_cont_piece3:hover .piece3 {
+  opacity: 0;
+}
+.mov_cont_piece3:hover .hover_piece3 {
+  opacity: 1;
+}
+
+/* Мусор 4*/
+.mov_cont_piece4 {
+  margin-top: 106%;
+  position: absolute;
+  pointer-events: visible;
+  animation-delay: -4.65s;
+  width: 31.46vw;
+  animation: move_piece4 22.7s linear infinite;
+  
+}
+
+.piece4, .hover_piece4 {
+  position: absolute;
+  object-fit: contain; 
+  transition: opacity 0.01s ease;
+  margin: 1% auto;
+  pointer-events: visible;
+  width: 31.46vw;
+  
+}
+
+.piece4 { 
+  opacity: 1;
+}
+.hover_piece4 {
+  opacity: 0;
+}
+.mov_cont_piece4:hover .piece4 {
+  opacity: 0;
+}
+.mov_cont_piece4:hover .hover_piece4 {
+  opacity: 1;
+}
+
+
+/* Мусор 5*/
+.piece5 {
+  position: absolute;
+  object-fit: contain; 
+  margin: 1% auto;
+  margin-top: 103%;
+  width: 25.07vw;
+  animation: move_piece5 21.9s linear infinite;
+  animation-delay: -7.7s;
+  display: none;
+}
+
+
+/* Мусор 6*/
+.mov_cont_piece6 {
+  margin-top: 106%;
+  position: absolute;
+  animation: move_piece6 21.9s linear infinite;
+  width: 35.49vw;
+  pointer-events: visible;
+  animation-delay: -6s;
+  
+}
+
+.piece6, .hover_piece6 {
+  position: absolute;
+  object-fit: contain; 
+  width: 35.49vw;
+  transition: opacity 0.01s ease;
+  margin: 1% auto;
+  pointer-events: visible;
+  
+}
+
+.piece6 { 
+  opacity: 1;
+}
+.hover_piece6 {
+  opacity: 0;
+}
+.mov_cont_piece6:hover .piece6 {
+  opacity: 0;
+}
+.mov_cont_piece6:hover .hover_piece6 {
+  opacity: 1;
+}
+
+
+/* Мусор 7*/
+.mov_cont_piece7 {
+  margin-top: 123%;
+  width: 42.22vw;
+  position: absolute;
+  animation: move_piece7 21.7s linear infinite;
+  pointer-events: visible;
+  animation-delay: -9s;
+  
+}
+
+.piece7, .hover_piece7 {
+  position: absolute;
+  object-fit: contain; 
+  transition: opacity 0.01s ease;
+  margin: 1% auto;
+  width: 42.22vw;
+  pointer-events: visible;
+  display: none;
+  
+}
+
+.piece7 { 
+  opacity: 1;
+}
+.hover_piece7 {
+  opacity: 0;
+}
+.mov_cont_piece7:hover .piece7 {
+  opacity: 0;
+}
+.mov_cont_piece7:hover .hover_piece7 {
+  opacity: 1;
+}
+
+/* Мусор 9*/
+.piece9 {
+  position: absolute;
+  object-fit: contain; 
+  margin: 1% auto;
+  width: 42.22vw;
+  margin-top: 124%;
+  animation: move_piece9 21.9s linear infinite;
+  animation-delay: -11s;
+} 
+
+/* Мусор 10*/
+ .piece10 {
+  position: absolute;
+  object-fit: contain; 
+  margin: 1% auto;
+  margin-top: 104%;
+  width: 33.33vw;
+  animation: move_piece10 21s linear infinite;
+  animation-delay: -7.6s;
+  display: none;
+}
+
+/* Мусор 11*/
+.mov_cont_piece11 {
+  margin-top: 100%;
+  position: absolute;
+  width: 33.33vw;
+  animation: move_piece11 19.5s linear infinite;
+  pointer-events: visible;
+  animation-delay: -14s;
+  
+} 
+
+.piece11, .hover_piece11 {
+  position: absolute;
+  object-fit: contain; 
+  transition: opacity 0.01s ease;
+  margin: 1% auto;
+  width: 33.33vw;
+  pointer-events: visible;
+  
+}
+
+.piece11 { 
+  opacity: 1;
+}
+.hover_piece11 {
+  opacity: 0;
+}
+.mov_cont_piece11:hover .piece11 {
+  opacity: 0;
+}
+.mov_cont_piece11:hover .hover_piece11 {
+  opacity: 1;
+}
+
+/* Мусор 12*/
+.mov_cont_piece12 {
+  margin-top: 108%;
+  position: absolute;
+  width: 30.35vw;
+  animation: move_piece12 20.2s linear infinite;
+  pointer-events: visible;
+  animation-delay: -15s;
+  display: none;
+  
+} 
+
+.piece12, .hover_piece12 {
+  position: absolute;
+  object-fit: contain; 
+  width: 30.35vw;
+  transition: opacity 0.01s ease;
+  margin: 1% auto;
+  pointer-events: visible;
+  
+}
+
+.piece12 { 
+  opacity: 1;
+}
+.hover_piece12 {
+  opacity: 0;
+}
+.mov_cont_piece12:hover .piece12 {
+  opacity: 0;
+}
+.mov_cont_piece12:hover .hover_piece12 {
+  opacity: 1;
+}
+
+
+/* Мусор 13*/
+.mov_cont_piece13 {
+  margin-top: 108%;
+  position: absolute;
+  width: 25.14vw;
+  animation: move_piece13 19.5s linear infinite;
+  pointer-events: visible;
+  animation-delay: -14.5s;
+  display: none;
+  
+}
+
+.piece13, .hover_piece13 {
+  position: absolute;
+  object-fit: contain; 
+  transition: opacity 0.01s ease;
+  margin: 1% auto;
+  pointer-events: visible;
+  width: 25.14vw;
+  
+}
+
+.piece13 { 
+  opacity: 1;
+}
+.hover_piece13 {
+  opacity: 0;
+}
+.mov_cont_piece13:hover .piece13 {
+  opacity: 0;
+}
+.mov_cont_piece13:hover .hover_piece13 {
+  opacity: 1;
+}
+
+/* Мусор 14 */
+.mov_cont_piece14 {
+  margin-top: 128%;
+  width: 42.22vw;
+  position: absolute;
+  animation: move_piece14 19.5s linear infinite;
+  pointer-events: visible;
+  animation-delay: -16.5s;
+  
+}
+
+.piece14, .hover_piece14 {
+  position: absolute;
+  width: 42.22vw;
+  object-fit: contain; 
+  transition: opacity 0.01s ease;
+  margin: 1% auto;
+  pointer-events: visible;
+  
+}
+
+.piece14 { 
+  opacity: 1;
+}
+.hover_piece14 {
+  opacity: 0;
+}
+.mov_cont_piece14:hover .piece14 {
+  opacity: 0;
+}
+.mov_cont_piece14:hover .hover_piece14 {
+  opacity: 1;
+}
+
+.section2{
+    width: 100%;
+    height: 98.6vw;
+    position: relative;
+    background-size: 100%;
+}
+
+
+
+.background_s2{
+    width: 100%;
+    position: absolute;
+    margin-top: 0%;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.ground_back1{
+    width: 200%;
+    position: absolute;
+    margin-top: 130%;
+    pointer-events: none;
+}
+
+.trash_back{
+    width: 250%;
+    position: absolute;
+    margin-top: 100%; 
+    opacity: 45%;
+    pointer-events: none;
+}
+
+
+
+.cursor {
+    position: absolute;
+    margin-top: 73%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 11.5vw;
+    border-right: 0.138vw solid rgba(255, 255, 255, 0.928);
+    font-size: 6.5vw;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    color: white;
+    font-family: "Inter_LightItalic";
+    font-weight: 200;
+    font-style: italic;
+    letter-spacing: 0.138vw;
+}
+
+
+.typewriter-animation {
+    animation: 
+        typewriter 6s steps(15) infinite, 
+        blinkingCursor 0.7s infinite;
+}
 }
 
 @media screen and (min-width: 451px) and (max-width: 768px) {
