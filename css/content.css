@@ -784,7 +784,7 @@ html, body {
     transform: translate(-50%, -50%);
     width: 12em;
     border-right: 0.138vw solid rgba(255, 255, 255, 0.928);
-    font-size: 2.08vw;
+    font-size: 2vw;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
@@ -851,7 +851,7 @@ html, body {
     width: 37.5vw;
 }
 
-.truba3:hover ~ .water3 {
+.truba3:hover + .water_group3 {
     transition: opacity 0.3s ease;
     opacity: 0;
 }
@@ -990,6 +990,30 @@ html, body {
     animation: wave3 0.7s linear infinite;
 }
 
+.wave13{
+    position: absolute;
+    margin-top: 36.7%;
+    margin-left: 40.9%;
+    width: 5.97vw;
+    animation: wave3 1.2s linear infinite;
+}
+
+.wave14{
+    position: absolute;
+    margin-top: 38%;
+    margin-left: 39%;
+    width: 17.43vw;
+    animation: wave3 1.2s linear infinite;
+}
+
+.wave15{
+    position: absolute;
+    width: 9.375vw;
+    margin-top: 48%;
+    margin-left: 41.8%;
+    animation: wave4 0.7s linear infinite;
+}
+
 .pena1{
     position: absolute;
     margin-top: 68%;
@@ -1038,7 +1062,60 @@ html, body {
     width: 100vw;
     height: 53.1vw;
     position: relative;
+
 }
+
+.welcome{
+    position: absolute;
+    margin-top: 90%;
+    left: 36%;
+    font-size: 2vw;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    color: white;
+    font-family: "Inter_LightItalic";
+    font-weight: 200;
+    font-style: italic;
+    letter-spacing: 0.138vw;
+    z-index: 40;
+}
+
+
+.cursor3 {
+    position: absolute;
+    margin-top: 94%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 29vw;
+    border-right: 0.138vw solid rgba(255, 255, 255, 0.928);
+    font-size: 2vw;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    color: white;
+    font-family: "Inter_LightItalic";
+    font-weight: 200;
+    font-style: italic;
+    letter-spacing: 0.138vw;
+    z-index: 300;
+}
+
+
+.typewriter-animation3 {
+    animation: 
+        typewriter3 14s steps(30) infinite, 
+        blinkingCursor 0.7s infinite;
+}
+
+@keyframes typewriter3 {
+    0% {width: 0;}
+    25% {width: 29vw;}
+    60% {width: 29vw;}
+    85% { width: 0;}
+    100% {width: 0;}
+}
+
 
 .section4{
     width: 100vw;
@@ -1057,7 +1134,7 @@ html, body {
 .after_pena{
     width: 8vw;
     height: 30vw;
-    margin-left: 10%;
+    margin-left: 5%;
 
 }
 
@@ -1066,7 +1143,7 @@ html, body {
     z-index: 5; 
     width: 10.21vw;
     margin-top: 73%;
-    margin-left: 25%;
+    margin-left: 12%;
     animation: after_pena1 3s linear infinite;
 }
 
@@ -1092,7 +1169,7 @@ html, body {
     z-index: 6;
     width: 10vw;
     margin-top: 71%;
-    margin-left: 19%;
+    margin-left: 21%;
     animation: after_pena1 4s linear infinite;
 }
 
@@ -1119,7 +1196,7 @@ html, body {
     width: 5.76vw;
     margin-top: 71%;
     margin-left: 40%;
-    animation: after_pena2 4s linear infinite;
+    animation: after_pena3 7s linear infinite;
 }
 
 .after_pena5:hover{
@@ -1325,7 +1402,7 @@ html, body {
 .wall_left{
     position: absolute;
     margin-top: 14.94%;
-    margin-left: 39.95%;
+    margin-left: 39.9%;
     pointer-events: none;
     z-index: 120;
     width: 3.75vw;
@@ -1333,7 +1410,7 @@ html, body {
 
 .wall_right{
     position: absolute;
-    margin-top: 14.95%;
+    margin-top: 14.97%;
     margin-left: 55.3%;
     pointer-events: none;
     z-index: 120;
@@ -1366,6 +1443,60 @@ html, body {
     pointer-events: none;
     z-index: 11;
     width: 67.85vw;
+}
+
+.podval2{
+    position: absolute;
+    margin-top: 31.6%;
+    margin-left: 40.5%;
+    z-index: 1000;
+    width: 54.44vw;
+}
+
+.mini1{
+    position: absolute;
+    margin-top: 26.7%;
+    margin-left: 69.5%;
+    pointer-events: none;
+    z-index: 900;
+    width: 22.44vw;
+    rotate: -30deg;
+}
+
+.mini2{
+    position: absolute;
+    margin-top: 19.7%;
+    margin-left: 58.5%;
+    pointer-events: none;
+    z-index: 900;
+    width: 13.44vw;
+}
+
+.mini3{
+    position: absolute;
+    margin-top: 22.7%;
+    margin-left: 65.5%;
+    pointer-events: none;
+    z-index: 900;
+    width: 12.44vw;
+}
+
+.mini4{
+    position: absolute;
+    margin-top: 22.7%;
+    margin-left: 48.5%;
+    pointer-events: none;
+    z-index: 900;
+    width: 14.44vw;
+}
+
+.mini5{
+    position: absolute;
+    margin-top: 18.7%;
+    margin-left: 85.5%;
+    pointer-events: none;
+    z-index: 900;
+    width: 12.44vw;
 }
 
 
@@ -1539,7 +1670,7 @@ html, body {
   position: absolute;
   width: 60vw;
   margin-top: 3%;
-  margin-left: 40%;
+  margin-left: 44%;
   z-index: 7;
 }
 
@@ -1728,7 +1859,14 @@ html, body {
 .flower_11:hover {
   animation: spinCenter2 4s linear infinite;
 }
-  
+
+.flowers_group3{
+  margin-left: 74%;
+  width: 70vw;
+  height: 30vw;
+  position: absolute;
+  z-index: 300;
+}
 
 .flower12{
   position: absolute;
@@ -1741,6 +1879,70 @@ html, body {
   animation: leftSwayPlus2 4s ease-in-out infinite;
 }
 
+.flower13 {
+  position: absolute;
+  width: 10.19vw;
+  transform: scale(-1);
+  margin-top: -16%;
+  margin-left: -8%;
+  z-index: 8;
+  pointer-events: none;
+  transform-origin: center bottom;
+  animation: intenseSway 4s ease-in-out infinite;
+}
+
+.flower14 {
+  position: absolute;
+  width: 20.19vw;
+  transform: scale(-1);
+  margin-top: -30%;
+  margin-left: -20%;
+  z-index: 200000;
+  pointer-events: none;
+  transform-origin: center bottom;
+  animation: leftSwayPlus2 4s ease-in-out infinite;
+}
+
+.flower15 {
+  position: absolute;
+  width: 20.19vw;
+  transform: scale(-1);
+  margin-top: -30%;
+  margin-left: 5%;
+  z-index: 200000;
+  pointer-events: none;
+  transform-origin: center bottom;
+  animation: leftSwayPlus2 4s ease-in-out infinite;
+}
+
+.flower16{
+  position: absolute;
+  width: 4vw;
+  margin-top: 6%;
+  margin-left: 13%;
+  z-index: 8;
+  pointer-events: none;
+}
+
+.flower_16 {
+  position: absolute;
+  width: 13vw;
+  margin-top: 0%;
+  margin-left: 10%;
+  z-index: 8;
+  pointer-events: auto;
+  transform-origin: center center;
+  animation: intenseSway 3s ease-in-out infinite;
+  transition: transform 2s linear; 
+}
+
+.flower_16:hover {
+  animation: intenseSway 3s ease-in-out infinite,
+    spinCenter 2s linear infinite;
+}
+
+
+
 
 
 
@@ -1749,7 +1951,7 @@ html, body {
     position: absolute;
     margin-top: 16.25%;
     margin-left: 42%;
-    z-index: 15;
+    z-index: 800;
     width: 22.78vw;
     animation: avtor 6s linear infinite;
 }
@@ -1758,7 +1960,7 @@ html, body {
     position: absolute;
     margin-top: 19vw;
     margin-left: 45vw;
-    z-index: 16;
+    z-index: 801;
     font-size: 1vw;
     animation: avtor 6s linear infinite;
     font-family: "Inter_Medium"; 
@@ -1769,7 +1971,7 @@ html, body {
     position: absolute;
     margin-top: 16.25%;
     margin-left: 70.5vw;
-    z-index: 15;
+    z-index: 800;
     width: 22.78vw;
     animation: curator 6s linear infinite;
 }
@@ -1778,7 +1980,7 @@ html, body {
     position: absolute;
     margin-top: 19vw;
     margin-left: 73.7vw;
-    z-index: 16;
+    z-index: 801;
     font-size: 1vw;
     animation: curator 6s linear infinite;
     font-family: "Inter_Medium"; 
@@ -1793,7 +1995,7 @@ html, body {
   perspective: 27.7vw;
   font-family: "Inter_Regular";
   font-size: 1.39vw;
-  z-index: 30;
+  z-index: 801;
   position: absolute; 
   top: 52%; 
   left: 45%;
@@ -1808,7 +2010,7 @@ html, body {
   height: 2.78vw;
   transform-style: preserve-3d;
   animation: flipWord 5s infinite ease-in-out;
-  z-index: 30;
+  z-index: 801;
 }
 
 .front, .back {
@@ -1843,7 +2045,7 @@ html, body {
   perspective: 27.7vw;
   font-family: "Inter_Regular";
   font-size: 1.39vw;
-  z-index: 31;
+  z-index: 801;
   position: absolute; 
   top: 52%; 
   left: 73.7%;
@@ -1858,7 +2060,7 @@ html, body {
   height: 2.78vw;
   transform-style: preserve-3d;
   animation: flipWord 5s infinite ease-in-out;
-  z-index: 31;
+  z-index: 801;
 }
 
 .front2, .back2 {
