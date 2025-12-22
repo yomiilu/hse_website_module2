@@ -508,7 +508,7 @@ html, body {
 
 .section2{
     width: 100%;
-    height: 200.6vw;
+    height: 259.2vw;
     position: relative;
     background-size: 100%;
 }
@@ -947,7 +947,7 @@ html, body {
     transform: translate(-50%, -50%);
     width: 12em;
     border-right: 0.138vw solid rgba(255, 255, 255, 0.928);
-    font-size: 4.08vw;
+    font-size: 4vw;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
@@ -958,175 +958,210 @@ html, body {
     letter-spacing: 0.138vw;
 }
 
+.water_group1{
+    opacity: 1;
+}
+
 .truba1{
     position: absolute;
-    margin-top: 107%; /* 27% + 80% */
-    margin-left: 0%;
+    margin-top: 121%; 
+    margin-left: -15%;
     z-index: 100;
-    width: 13.33vw;
+    width:30.33vw;
     cursor: pointer;
+}
+
+.truba1:hover ~ .water_group1 {
+    transition: opacity 0.3s ease;
+    opacity: 0;
 }
 
 .truba2{
     position: absolute;
-    margin-top: 102.3%; /* 22.3% + 80% */
-    margin-left: -2.8%;
+    margin-top: 113.3%; 
+    margin-left: -18%;
     cursor: pointer;
-    width: 30.21vw;
+    width: 58.21vw;
     pointer-events: auto;
 }
 
+.truba2:hover + .water_group2 {
+    transition: opacity 0.3s ease;
+    opacity: 0;
+}
+
+
 .truba3{
     position: absolute;
-    margin-top: 104.3%; /* 24.3% + 80% */
-    margin-left: 4.9%;
+    margin-top: 119.5%; 
+    margin-left: 0%;
     cursor: pointer;
-    width: 37.5vw;
+    width: 73.4vw;
 }
+
+.water_group2{
+    opacity: 1;
+}
+
 
 .water1{
     position: absolute;
-    margin-top: 117.65%; /* 37.65% + 80% */
-    margin-left: 12%;
-    width: 30vw;
+    margin-top: 148.65%;
+    margin-left: 13.6%;
+    width: 55vw;
+    z-index: 3;
 }
 
 .water2{
     position: absolute;
-    margin-top: 114.3%; /* 34.3% + 80% */
-    margin-left: 24.5%;
-    opacity: 1;
-    width: 29.44vw;
+    margin-top: 136.3%; 
+    margin-left: 35.5%;
+    z-index: 3;
+    width: 59.88vw;
 }
 
 .water3{
     position: absolute;
-    margin-top: 115.1%; /* 35.1% + 80% */
-    margin-left: 39.4%;
-    width: 14.31vw;
+    margin-top: 140.1%; 
+    margin-left: 67.4%;
+    width: 28.62vw;
+    z-index: 3;
 }
 
 .water4{
     position: absolute;
-    margin-top: 145.9%; /* 65.9% + 80% */
-    margin-left: 0%;
-    width: 100%;
+    margin-top: 200.9%; 
+    margin-left: -6%;
+    width: 180%;
     z-index: 5;
-    width: 100vw;
 }
 
 .wave1{
     position: absolute;
-    margin-top: 119.7%; /* 39.7% + 80% */
+    margin-top: 119.7%; 
     margin-left: 12.9%;
-    width: 14.44vw;
+    width: 28.88vw;
     animation: wave1 0.7s linear infinite;
+    z-index: 4;
 }
 
 .wave2{
     position: absolute;
-    margin-top: 121.4%; /* 41.4% + 80% */
+    margin-top: 121.4%;
     margin-left: 16.9%;
     width: 8.54vw;
     animation: wave1 1.2s linear infinite;
+    z-index: 4;
 }
 
 .wave3{
     position: absolute;
-    margin-top: 127%; /* 47% + 80% */
+    margin-top: 127%; 
     width: 10.56vw;
     margin-left: 19.4%;
     animation: wave3 0.7s linear infinite;
+    z-index: 4;
 }
 
 .wave4{
     position: absolute;
-    margin-top: 132.4%; /* 52.4% + 80% */
+    margin-top: 132.4%; 
     margin-left: 22.9%;
     width: 12.01vw;
     animation: wave3 1.2s linear infinite;
+    z-index: 4;
 }
 
 .wave5{
     position: absolute;
-    margin-top: 134%; /* 54% + 80% */
+    margin-top: 134%; 
     margin-left: 23.3%;
     width: 8.82vw;
     animation: wave5 0.8s linear infinite;
+    z-index: 4;
 }
 
 .wave6{
     position: absolute;
-    margin-top: 134%; /* 54% + 80% */
+    margin-top: 134%; 
     margin-left: 24.2%;
     width: 14.86vw;
     animation: wave3 1s linear infinite;
+    z-index: 4;
 }
 
 .wave7{
     position: absolute;
-    margin-top: 114.2%; /* 34.2% + 80% */
+    margin-top: 114.2%; 
     margin-left: 26.4%;
     width: 14.58vw;
     animation: wave1 0.7s linear infinite;
+    z-index: 4;
 }
 
 .wave8{
     position: absolute;
-    margin-top: 115.7%; /* 35.7% + 80% */
+    margin-top: 115.7%; 
     margin-left: 29.4%;
     width: 15.9vw;
     animation: wave1 1.2s linear infinite;
+    z-index: 4;
 }
 
 .wave9{
     position: absolute;
-    margin-top: 129.3%; /* 49.3% + 80% */
+    margin-top: 129.3%; 
     margin-left: 33.4%;
     width: 16.39vw;
     animation: wave3 0.7s linear infinite;
+    z-index: 4;
 }
 
 .wave10{
     position: absolute;
-    margin-top: 128.7%; /* 48.7% + 80% */
+    margin-top: 128.7%;
     margin-left: 35.9%;
     width: 13.82vw;
     animation: wave3 1.2s linear infinite;
+    z-index: 4;
 }
 
 .wave11{
     position: absolute;
-    margin-top: 134%; /* 54% + 80% */
+    margin-top: 134%; 
     margin-left: 43%;
     width: 2.01vw;
     animation: wave3 1.2s linear infinite;
+    z-index: 4;
 }
 
 .wave12{
     position: absolute;
     width: 2.64vw;
-    margin-top: 128%; /* 48% + 80% */
+    margin-top: 128%; 
     margin-left: 43%;
     animation: wave3 0.7s linear infinite;
+    z-index: 4;
 }
+
 
 .pena1{
     position: absolute;
-    margin-top: 148%; /* 68% + 80% */
+    margin-top: 207%; 
     z-index: 1000;
-    width: 34.65vw;
-    margin-left: 20%;
+    width: 75.65vw;
+    margin-left: 25%;
     animation: pena1 4s linear infinite;
     z-index: 7;
+    
 }
 
 .pena2{
     position: absolute;
     z-index: 1000;
-    margin-top: 148.4%; /* 68.4% + 80% */
+    margin-top: 209.4%;
     margin-left: 20%;
-    width: 39.1vw;
+    width: 78.1vw;
     animation: pena2 4s linear infinite;
     z-index: 7;
 }
@@ -1136,7 +1171,7 @@ html, body {
     width: 100vw;
     margin-left: 0%;
     margin-right: 0%;
-    margin-top: 155%; /* 75% + 80% */
+    margin-top: 210%; 
     z-index: 1;     
     pointer-events: none;
     animation: back_water2 4s linear infinite;
@@ -1147,7 +1182,7 @@ html, body {
     width: 100vw;
     margin-left: 0%;
     margin-right: 0%;
-    margin-top: 155%; /* 75% + 80% */
+    margin-top: 210%;
     z-index: 2;     
     pointer-events: none;
     animation: back_water2 3s linear infinite;
