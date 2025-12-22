@@ -1240,7 +1240,7 @@ html, body {
 .sled6{
     position: absolute;
     margin-top: 7.5%;
-    margin-left: 32%;
+    margin-left: 34%;
     pointer-events: none;
     z-index: 6;
     width: 6vw;
@@ -1249,8 +1249,8 @@ html, body {
 
 .sled7{
     position: absolute;
-    margin-top: 7%;
-    margin-left: 39%;
+    margin-top: 7.6%;
+    margin-left: 40%;
     pointer-events: none;
     z-index: 6;
     width: 5vw;
@@ -1259,7 +1259,7 @@ html, body {
 
 .sled8{
     position: absolute;
-    margin-top: 5.3%;
+    margin-top: 6%;
     margin-left: 42%;
     pointer-events: none;
     z-index: 6;
@@ -1561,14 +1561,39 @@ html, body {
 
 .flower1{
   position: absolute;
-  width: 12.9vw;
-  margin-top: -10%;
-  margin-left: 3%;
+  width: 2vw;
+  margin-top: -2%;
+  margin-left: 13%;
   z-index: 8;
   pointer-events: none;
-  transform-origin: center bottom;
-  animation: intenseSway 3s ease-in-out infinite;
 }
+
+.flower_1 {
+  position: absolute;
+  width: 13vw;
+  margin-top: -11%;
+  margin-left: 10%;
+  z-index: 8;
+  pointer-events: auto;
+  transform-origin: center center;
+  animation: intenseSway 3s ease-in-out infinite;
+  transition: transform 2s linear; 
+}
+
+.flower_1:hover {
+  animation: intenseSway 3s ease-in-out infinite,
+    spinCenter 2s linear infinite;
+}
+
+@keyframes spinCenter {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 
 .flower2 {
   position: absolute;
@@ -1607,12 +1632,30 @@ html, body {
 
 .flower5{
   position: absolute;
-  width: 14.51vw;
-  margin-top: 29%;
-  margin-left: 36%;
+  width: 7.9vw;
+  margin-top: 35%;
+  margin-left: 43%;
   pointer-events: none;
   z-index: 121;
 }
+
+.flower_5{
+  position: absolute;
+  width: 12.5vw;
+  margin-top: 29%;
+  margin-left: 36%;
+  pointer-events: visible;
+  z-index: 125;
+  transform-origin: center center;
+  animation: intenseSway 3s ease-in-out infinite;
+  transition: transform 2s linear; 
+}
+
+.flower_5:hover {
+  animation: spinCenter 2s linear infinite;
+}
+
+
 
 .flower6{
   position: absolute;
@@ -1632,6 +1675,8 @@ html, body {
   margin-left: 36%;
   pointer-events: none;
   z-index: 1200;
+  transform-origin: center bottom;
+  animation: leftSwayPlus2 3s ease-in-out infinite;
 }
 
 .flower8{
@@ -1641,6 +1686,8 @@ html, body {
   margin-left: 36%;
   pointer-events: none;
   z-index: 124;
+  transform-origin: center bottom;
+  animation: intenseSway2 7s ease-in-out infinite;
 }
 
 .flower9{
@@ -1650,6 +1697,8 @@ html, body {
   margin-left: 50%;
   pointer-events: none;
   z-index: 1201;
+  transform-origin: center bottom;
+  animation: intenseSway 6s ease-in-out infinite;
 }
 
 .flower10{
@@ -1665,13 +1714,29 @@ html, body {
 
 .flower11{
   position: absolute;
-  width: 13.19vw;
-  margin-top: 22.9%;
-  margin-left: 51%;
+  width: 3.75vw;
+  margin-top: 30.9%;
+  margin-left: 53%;
   pointer-events: none;
   z-index: 125;
-  
 }
+
+.flower_11{
+  position: absolute;
+  width: 12.56vw;
+  margin-top: 23.9%;
+  margin-left: 50%;
+  pointer-events: visible;
+  z-index: 226;
+  transform-origin: center center;
+  animation: intenseSway 3s ease-in-out infinite;
+  transition: transform 4s linear; 
+}
+
+.flower_11:hover {
+  animation: spinCenter 4s linear infinite;
+}
+  
 
 .flower12{
   position: absolute;
@@ -1680,7 +1745,7 @@ html, body {
   margin-left: 52%;
   pointer-events: none;
   z-index: 1205;
-  transform-origin: center bottom;
+  transform-origin: left bottom;
   animation: leftSwayPlus2 4s ease-in-out infinite;
 }
 

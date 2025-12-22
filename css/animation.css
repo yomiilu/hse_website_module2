@@ -474,3 +474,21 @@
   75% {transform: rotate(3.5deg);}
 }
 
+
+@keyframes spinCenter {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spinCenter2 {
+  from {
+    transform: rotate(-0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
