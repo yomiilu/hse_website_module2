@@ -4,10 +4,17 @@
     box-sizing: border-box;
 }
 
+
 html, body {
     width: 100%;
     overflow-x: hidden;
+    cursor: url(../images/cursor_main.svg), auto;
 
+}
+
+.cursor_main{
+  width: 0.2vw;
+  height: 0.2vw;
 }
 
 .section1{
