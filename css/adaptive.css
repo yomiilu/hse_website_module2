@@ -12,7 +12,7 @@ html, body {
 }
 
 .section1{
-    width: 100%;
+    width: 100.5%;
     height: 153vw;
     position: relative;
     background: linear-gradient(to bottom, #000000 27%, #353535 100%);
@@ -514,7 +514,7 @@ html, body {
 }
 
 .background_s2{
-    width: 100%;
+    width: 101%;
     height: 100%;
     position: absolute;
     top: 0;
@@ -1038,112 +1038,139 @@ html, body {
 
 .wave1{
     position: absolute;
-    margin-top: 119.7%; 
-    margin-left: 12.9%;
-    width: 28.88vw;
+    margin-top: 151.7%; 
+    margin-left: 14.9%;
+    width: 27.88vw;
     animation: wave1 0.7s linear infinite;
     z-index: 4;
 }
 
 .wave2{
     position: absolute;
-    margin-top: 121.4%;
-    margin-left: 16.9%;
-    width: 8.54vw;
+    margin-top: 155.4%;
+    margin-left: 21.9%;
+    width: 13.54vw;
     animation: wave1 1.2s linear infinite;
     z-index: 4;
 }
 
 .wave3{
     position: absolute;
-    margin-top: 127%; 
-    width: 10.56vw;
-    margin-left: 19.4%;
+    margin-top: 170%; 
+    width: 14.56vw;
+    margin-left: 33.4%;
     animation: wave3 0.7s linear infinite;
     z-index: 4;
 }
 
 .wave4{
     position: absolute;
-    margin-top: 132.4%; 
-    margin-left: 22.9%;
-    width: 12.01vw;
+    margin-top: 180.4%; 
+    margin-left: 35.5%;
+    width: 20.01vw;
     animation: wave3 1.2s linear infinite;
     z-index: 4;
 }
 
 .wave5{
     position: absolute;
-    margin-top: 134%; 
-    margin-left: 23.3%;
-    width: 8.82vw;
+    margin-top: 178%; 
+    margin-left: 34.3%;
+    width: 13.82vw;
     animation: wave5 0.8s linear infinite;
     z-index: 4;
 }
 
 .wave6{
     position: absolute;
-    margin-top: 134%; 
-    margin-left: 24.2%;
-    width: 14.86vw;
+    margin-top: 180%; 
+    margin-left: 36%;
+    width: 23.86vw;
     animation: wave3 1s linear infinite;
     z-index: 4;
 }
 
 .wave7{
     position: absolute;
-    margin-top: 114.2%; 
-    margin-left: 26.4%;
-    width: 14.58vw;
+    margin-top: 135.2%; 
+    margin-left: 38.4%;
+    width: 23.58vw;
     animation: wave1 0.7s linear infinite;
     z-index: 4;
 }
 
 .wave8{
     position: absolute;
-    margin-top: 115.7%; 
-    margin-left: 29.4%;
-    width: 15.9vw;
+    margin-top: 136.7%; 
+    margin-left: 42.4%;
+    width: 21.9vw;
     animation: wave1 1.2s linear infinite;
     z-index: 4;
 }
 
 .wave9{
     position: absolute;
-    margin-top: 129.3%; 
-    margin-left: 33.4%;
-    width: 16.39vw;
+    margin-top: 164.3%; 
+    margin-left: 52.4%;
+    width: 34.39vw;
     animation: wave3 0.7s linear infinite;
     z-index: 4;
 }
 
 .wave10{
     position: absolute;
-    margin-top: 128.7%;
-    margin-left: 35.9%;
-    width: 13.82vw;
+    margin-top: 169.7%;
+    margin-left: 57.9%;
+    width: 30.82vw;
     animation: wave3 1.2s linear infinite;
     z-index: 4;
 }
 
 .wave11{
     position: absolute;
-    margin-top: 134%; 
-    margin-left: 43%;
-    width: 2.01vw;
+    margin-top: 160%; 
+    margin-left: 71%;
+    width: 5.01vw;
     animation: wave3 1.2s linear infinite;
     z-index: 4;
 }
 
 .wave12{
     position: absolute;
-    width: 2.64vw;
-    margin-top: 128%; 
-    margin-left: 43%;
+    width: 3.64vw;
+    margin-top: 160%; 
+    margin-left: 74%;
     animation: wave3 0.7s linear infinite;
     z-index: 4;
 }
 
+.wave13{
+    position: absolute;
+    margin-top: 142.7%;
+    margin-left: 69.9%;
+    width: 10.97vw;
+    animation: wave3 1.2s linear infinite;
+    z-index: 10;
+}
+
+.wave14{
+    position: absolute;
+    margin-top: 150%;
+    margin-left: 68%;
+    width: 19.43vw;
+    animation: wave3 1.2s linear infinite;
+    z-index: 10;
+    display: none;
+}
+
+.wave15{
+    position: absolute;
+    width: 9.375vw;
+    margin-top: 48%;
+    margin-left: 41.8%;
+    animation: wave4 0.7s linear infinite;
+    display: none;
+}
 
 .pena1{
     position: absolute;
@@ -1186,6 +1213,1080 @@ html, body {
     z-index: 2;     
     pointer-events: none;
     animation: back_water2 3s linear infinite;
+}
+
+
+.section3{
+    width: 100vw;
+    height: 90.1vw;
+    position: relative;
+
+}
+
+.welcome{
+    position: absolute;
+    margin-top: 242%;
+    left: 20%;
+    font-size: 4vw;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    color: white;
+    font-family: "Inter_LightItalic";
+    font-weight: 200;
+    font-style: italic;
+    letter-spacing: 0.138vw;
+    z-index: 60;
+}
+
+
+.cursor3 {
+    position: absolute;
+    margin-top: 250%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    width: 58vw;
+    border-right: 0.138vw solid rgba(255, 255, 255, 0.928);
+    font-size: 4vw;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    color: white;
+    font-family: "Inter_LightItalic";
+    font-weight: 200;
+    font-style: italic;
+    letter-spacing: 0.138vw;
+    z-index: 300;
+}
+
+
+.typewriter-animation3 {
+    animation: 
+        typewriter3 14s steps(30) infinite, 
+        blinkingCursor 0.7s infinite;
+}
+
+@keyframes typewriter3 {
+    0% {width: 0;}
+    25% {width: 58vw;}
+    60% {width: 58vw;}
+    85% { width: 0;}
+    100% {width: 0;}
+}
+
+
+.section4{
+    width: 100vw;
+    height: 40vw;
+    position: relative;
+}
+
+.background3{
+    width: 100%;
+    position: absolute;
+    margin-top: -1%;
+    pointer-events: none;
+    z-index: 3;
+}
+
+.after_pena{
+    width: 8vw;
+    height: 30vw;
+    margin-left: 5%;
+
+}
+
+.after_pena1{
+    position: absolute;
+    z-index: 5; 
+    width: 10.21vw;
+    margin-top: 220%;
+    margin-left: 20%;
+    animation: after_pena1 3s linear infinite;
+}
+
+.after_pena1:hover{
+  animation-play-state:paused;
+}
+
+.after_pena2{
+    position: absolute;
+    z-index: 6;
+    width: 2.57vw;
+    margin-top: 220%;
+    margin-left: 30%;
+    animation: after_pena2 6s linear infinite;
+}
+
+.after_pena2:hover{
+  animation-play-state:paused;
+}
+
+.after_pena3{
+    position: absolute;
+    z-index: 6;
+    width: 10vw;
+    margin-top: 220%;
+    margin-left: 60%;
+    animation: after_pena1 4s linear infinite;
+}
+
+.after_pena3:hover{
+  animation-play-state:paused;
+}
+
+.after_pena4{
+    position: absolute;
+    z-index: 6;
+    width: 2.22vw;
+    margin-top: 220%;
+    margin-left: 70%;
+    animation: after_pena2 6s linear infinite;
+}
+
+.after_pena4:hover{
+  animation-play-state:paused;
+}
+
+.after_pena5{
+    position: absolute;
+    z-index: 6;
+    width: 5.76vw;
+    margin-top: 220%;
+    margin-left: 40%;
+    animation: after_pena3 7s linear infinite;
+}
+
+.after_pena5:hover{
+  animation-play-state:paused;
+}
+
+.after_pena6{
+    position: absolute;
+    z-index: 6;
+    width: 2.29vw;
+    margin-top: 220%;
+    margin-left: 37%;
+    animation: after_pena1 3s linear infinite;
+}
+
+.after_pena6:hover{
+  animation-play-state:paused;
+}
+
+@keyframes after_pena1{
+    0%{transform: translateY(0) rotate(0deg); opacity: 1;}
+    50%{transform: translateY(25vh) rotate(120deg); opacity: 1;}
+    80%{transform: translateY(35vh) rotate(160deg); opacity: 0;}
+    100%{transform: translateY(0) rotate(0deg); opacity: 0;}
+}
+
+@keyframes after_pena2{
+    0%{transform: translateY(0) rotate(0deg); opacity: 1;}
+    50%{transform: translateY(25vh) rotate(80deg); opacity: 1;}
+    80%{transform: translateY(35vh) rotate(110deg); opacity: 0;}
+    100%{transform: translateY(0) rotate(0deg); opacity: 0;}
+}
+
+@keyframes after_pena3{
+    0%{transform: translateY(0) rotate(0deg); opacity:1;}
+    40%{transform: translateY(25vh) rotate(80deg); opacity: 0.2;}
+    70%{transform: translateY(35vh) rotate(110deg); opacity: 0;}
+    80%{transform: translateY(35vh) rotate(110deg); opacity: 0;}
+    100%{transform: translateY(0) rotate(0deg); opacity: 0;}
+}
+
+
+.gallery{
+    position: absolute;
+    z-index: 6;
+    width: 135vw;
+    margin-top: -3%;
+    margin-left: -1vw;
+}
+
+.purple_1{
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    margin-top: 25%;
+    animation: purple1 3s linear infinite;
+}
+
+.purple_2{
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    margin-top: 30%;
+    animation: purple1 3s linear infinite;
+}
+
+.purple_3{
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    margin-top: 34.65%;
+    animation: purple1 3s linear infinite;
+}
+
+.background4{
+    width: 100%;
+    position: absolute;
+    pointer-events: none;
+    z-index: 3;
+}
+
+.path{
+    position: absolute;
+    margin-top: 4.2%;
+    width: 55.35vw;
+    pointer-events: none;
+    z-index: 4;
+}
+
+.sled1{
+    position: absolute;
+    width: 18.1vw;
+    margin-top: 23%;
+    margin-left: 0.5%;
+    pointer-events: none;
+    z-index: 5;
+    animation: sled-fade 6s infinite;
+}
+
+.sled2{
+    position: absolute;
+    margin-top: 16%;
+    width: 15.6vw;
+    margin-left: 1.5%;
+    pointer-events: none;
+    z-index: 6;
+    animation: sled-fade 6s infinite;
+}
+
+.sled3{
+    position: absolute;
+    margin-top: 16.5%;
+    margin-left: 16%;
+    width: 13vw;
+    pointer-events: none;
+    z-index: 6;
+    animation: sled-fade 6s infinite;
+}
+
+.sled4{
+    position: absolute;
+    margin-top: 11%;
+    margin-left: 20%;
+    pointer-events: none;
+    z-index: 6;
+    width: 10vw;
+    animation: sled-fade 6s infinite;
+}
+
+.sled5{
+    position: absolute;
+    margin-top: 10.5%;
+    margin-left: 30%;
+    pointer-events: none;
+    z-index: 6;
+    width: 9vw;
+    animation: sled-fade 6s infinite;
+}
+
+.sled6{
+    position: absolute;
+    margin-top: 7.5%;
+    margin-left: 34%;
+    pointer-events: none;
+    z-index: 6;
+    width: 6vw;
+    animation: sled-fade 6s infinite;
+}
+
+.sled7{
+    position: absolute;
+    margin-top: 7.6%;
+    margin-left: 40%;
+    pointer-events: none;
+    z-index: 6;
+    width: 5vw;
+    animation: sled-fade 6s infinite;
+}
+
+.sled8{
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 42%;
+    pointer-events: none;
+    z-index: 6;
+    width: 3vw;
+    animation: sled-fade 6s infinite;
+}
+
+.sled1 { animation-delay: 0s; }
+.sled2 { animation-delay: 1s; }
+.sled3 { animation-delay: 2s; }
+.sled4 { animation-delay: 3s; }
+.sled5 { animation-delay: 4s; }
+.sled6 { animation-delay: 5s; }
+.sled7 { animation-delay: 6s; }
+.sled8 { animation-delay: 7s; }
+
+.door{
+  position:absolute;
+  width: 14vw;
+  margin-top: 41.85%;
+  margin-left: 42.4%;
+  z-index: 110;
+}
+
+.door1{
+  position:absolute;
+  width: 14vw;
+  margin-top: 0%;
+  margin-left: 0%;
+  z-index: 110;
+}
+
+.door2{
+  position:absolute;
+  padding-top:8.9%;
+  left:12.4%;
+  width: 5.08vw;
+  object-fit:contain;
+  animation: open_left 8s linear infinite;
+  animation-delay: 0.7s;
+  z-index: 110;
+}
+
+.door3{
+  position:absolute;
+  padding-top:8.9%;
+  width: 5.08vw;
+  left:51%;
+  object-fit:contain;
+  animation: open_right 8s linear infinite;
+  animation-delay: 0.7s;
+  z-index: 110;
+}
+
+.door4{
+  position:absolute;
+  margin-left: 42.2%;
+  width: 14.5vw;
+  margin-top: 41.83%;
+  z-index: 5000;
+}
+
+.wall_left{
+    position: absolute;
+    margin-top: 14.94%;
+    margin-left: 39.9%;
+    pointer-events: none;
+    z-index: 120;
+    width: 3.75vw;
+}
+
+.wall_right{
+    position: absolute;
+    margin-top: 14.97%;
+    margin-left: 55.3%;
+    pointer-events: none;
+    z-index: 120;
+    width: 3.75vw; 
+}
+
+.column1{
+    position: absolute;
+    margin-top: 10.8%;
+    margin-left: 36%;
+    pointer-events: none;
+    z-index: 1000;
+    width: 4.5vw;
+}
+
+.column2{
+    position: absolute;
+    margin-top: 10.9%;
+    margin-left: 58.5%;
+    pointer-events: none;
+    z-index: 1000;
+    width: 4.5vw;
+}
+
+
+.podval{
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 34%;
+    pointer-events: none;
+    z-index: 11;
+    width: 67.85vw;
+}
+
+.podval2{
+    position: absolute;
+    margin-top: 31.6%;
+    margin-left: 40.5%;
+    z-index: 1000;
+    width: 54.44vw;
+}
+
+.mini1{
+    position: absolute;
+    margin-top: 26.7%;
+    margin-left: 71.5%;
+    pointer-events: none;
+    z-index: 900;
+    width: 15.44vw;
+    rotate: -30deg;
+}
+
+.mini2{
+    position: absolute;
+    margin-top: 19.7%;
+    margin-left: 58.5%;
+    pointer-events: none;
+    z-index: 900;
+    width: 13.44vw;
+    transform-origin: center bottom;
+    animation: leftSwayPlus2 3s ease-in-out infinite;
+}
+
+.mini3{
+    position: absolute;
+    margin-top: 22.7%;
+    margin-left: 65.5%;
+    pointer-events: none;
+    z-index: 900;
+    width: 12.44vw;
+}
+
+.mini4{
+    position: absolute;
+    margin-top: 22.7%;
+    margin-left: 48.5%;
+    pointer-events: none;
+    z-index: 900;
+    width: 14.44vw;
+}
+
+.mini5{
+    position: absolute;
+    margin-top: 18.7%;
+    margin-left: 85.5%;
+    pointer-events: none;
+    z-index: 900;
+    width: 12.44vw;
+    transform-origin: center bottom;
+    animation: rightSwayPlus 3s ease-in-out infinite;
+
+}
+
+
+.window1{
+  margin-top: 25.99%;
+  margin-left: 10.55%;
+  position: absolute;  
+  z-index: 7;
+  width: 2.78vw;
+}
+
+.window_dark, .window_light {
+  position: absolute;
+  object-fit: contain; 
+  transition: opacity 0.7s ease;
+  margin: 1% auto;
+  z-index: 8;
+  pointer-events: none; 
+  width: 2.78vw;
+  
+}
+
+.window_dark { 
+  opacity: 1;
+}
+.window_light {
+  opacity: 0;
+}
+.window1:hover .window_dark {
+  opacity: 0;
+}
+.window1:hover .window_light {
+  opacity: 1;
+}
+
+
+.window3{
+  margin-top: 25.99%;
+  margin-left: 85.67%;
+  position: absolute;  
+  z-index: 7;
+  width: 2.78vw;
+}
+
+.window_dark3, .window_light3 {
+  position: absolute;
+  object-fit: contain; 
+  transition: opacity 0.7s ease;
+  margin: 1% auto;
+  pointer-events: visible;
+  width: 2.78vw;
+  
+}
+
+.window_dark3 { 
+  opacity: 1;
+}
+.window_light3 {
+  opacity: 0;
+}
+.window3:hover .window_dark3 {
+  opacity: 0;
+}
+.window3:hover .window_light3 {
+  opacity: 1;
+}
+
+.window2{
+  margin-top: 39.58%;
+  margin-left: 10.2%;
+  position: absolute;  
+  z-index: 7;
+  width: 2.78vw;
+}
+
+.window_dark2, .window_light2 {
+  position: absolute;
+  object-fit: contain; 
+  transition: opacity 0.7s ease;
+  margin: 1% auto;
+  pointer-events: visible;
+  width: 2.78vw;
+  
+}
+
+.window_dark2 { 
+  opacity: 1;
+}
+.window_light2 {
+  opacity: 0;
+}
+.window2:hover .window_dark2 {
+  opacity: 0;
+}
+.window2:hover .window_light2 {
+  opacity: 1;
+}
+
+.gallery_glass{
+  position: absolute;
+  width: 13.22vw;
+  margin-top: 15%;
+  margin-left: 43%;
+  z-index: 6;
+}
+
+.glass1{
+  position: absolute;
+  width: 32vw;
+  margin-top: 0%;
+  margin-left: -7%;
+  pointer-events: visible; 
+  z-index: 7;
+  transition: margin-left 0.5s ease;
+}
+
+.glass1:hover {
+  margin-left: -2%;
+  pointer-events: auto; 
+}
+
+.glass2{
+  position: absolute;
+  width: 32vw;
+  margin-top: 2%;
+  margin-left: -11%;
+  z-index: 8;
+  pointer-events: visible; 
+  transition: margin-left 0.5s ease;
+}
+
+.glass2:hover {
+  margin-left: -2%;
+}
+
+.flowers_group1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 7; 
+  pointer-events: none;
+}
+
+.glass3{
+  position: absolute;
+  width: 60vw;
+  margin-top: 13%;
+  margin-left: 43%;
+  z-index: 7;
+  pointer-events: visible;
+  transition: margin-right 0.5s ease;
+}
+
+.glass3:hover {
+  margin-right: 2%;
+}
+
+.glass4{
+  position: absolute;
+  width: 60vw;
+  margin-top: 8%;
+  margin-left: 48%;
+  z-index: 7;
+}
+
+.glass5{
+  position: absolute;
+  width: 60vw;
+  margin-top: 4%;
+  margin-left: 48%;
+  z-index: 7;
+}
+
+.glass6{
+  position: absolute;
+  width: 60vw;
+  margin-top: 3%;
+  margin-left: 44%;
+  z-index: 7;
+  pointer-events: visible;
+  transition: margin-right 0.5s ease;
+}
+
+.glass6:hover {
+  margin-right: 2%;
+}
+
+.glass7{
+  position: absolute;
+  width: 34vw;
+  margin-top: 2%;
+  margin-left: 80%;
+  z-index: 30;
+  pointer-events: visible;
+  transition: margin-right 0.5s ease;
+}
+
+.glass7:hover {
+  margin-right: 2%;
+}
+
+.glass8{
+  position: absolute;
+  width: 27vw;
+  margin-top: 0%;
+  margin-left: 85%;
+  z-index: 7;
+}
+
+.flower1{
+  position: absolute;
+  width: 2vw;
+  margin-top: -2%;
+  margin-left: 13%;
+  z-index: 8;
+  pointer-events: none;
+}
+
+.flower_1 {
+  position: absolute;
+  width: 13vw;
+  margin-top: -11%;
+  margin-left: 10%;
+  z-index: 8;
+  pointer-events: auto;
+  transform-origin: center center;
+  animation: intenseSway 3s ease-in-out infinite;
+  transition: transform 2s linear; 
+}
+
+.flower_1:hover {
+  animation: intenseSway 3s ease-in-out infinite,
+    spinCenter 2s linear infinite;
+}
+
+
+
+.flower2 {
+  position: absolute;
+  width: 15.8vw;
+  margin-top: -11.8%;
+  margin-left: 0%;
+  z-index: 8;
+  pointer-events: none;
+  transform-origin: center bottom;
+  animation: leftSwayPlus 4s ease-in-out infinite;
+}
+
+
+.flower3 {
+  position: absolute;
+  width: 13.19vw;
+  margin-top: -30%;
+  margin-left: 3%;
+  z-index: 8;
+  pointer-events: none;
+  transform-origin: center bottom;
+  animation: intenseSway 5s ease-in-out infinite;
+}
+
+
+.flower4{
+  position: absolute;
+  width: 13.36vw;
+  margin-top: -25%;
+  margin-left: 0%;
+  z-index: 6;
+  pointer-events: none;
+  transform-origin: center bottom;
+  animation: leftSwayPlus 3s ease-in-out infinite;
+}
+
+.flower5{
+  position: absolute;
+  width: 7.9vw;
+  margin-top: 35%;
+  margin-left: 43%;
+  pointer-events: none;
+  z-index: 121;
+}
+
+.flower_5{
+  position: absolute;
+  width: 12.5vw;
+  margin-top: 29%;
+  margin-left: 36%;
+  pointer-events: visible;
+  z-index: 125;
+  transform-origin: center center;
+  animation: intenseSway 3s ease-in-out infinite;
+  transition: transform 2s linear; 
+}
+
+.flower_5:hover {
+  animation: spinCenter 2s linear infinite;
+}
+
+
+
+.flower6{
+  position: absolute;
+  width: 24.38vw;
+  margin-top: 24%;
+  margin-left: 26%;
+  pointer-events: none;
+  z-index: 123;
+  transform-origin: center bottom;
+  animation: leftSwayPlus2 6s ease-in-out infinite;
+}
+
+.flower7{
+  position: absolute;
+  width: 10.49vw;
+  margin-top: 24%;
+  margin-left: 36%;
+  pointer-events: none;
+  z-index: 1200;
+  transform-origin: center bottom;
+  animation: leftSwayPlus2 3s ease-in-out infinite;
+}
+
+.flower8{
+  position: absolute;
+  width: 17.71vw;
+  margin-top: 13.9%;
+  margin-left: 36%;
+  pointer-events: none;
+  z-index: 124;
+  transform-origin: center bottom;
+  animation: intenseSway2 7s ease-in-out infinite;
+}
+
+.flower9{
+  position: absolute;
+  width: 12.57vw;
+  margin-top: 11%;
+  margin-left: 50%;
+  pointer-events: none;
+  z-index: 1201;
+  transform-origin: center bottom;
+  animation: intenseSway 6s ease-in-out infinite;
+}
+
+.flower10{
+  position: absolute;
+  width: 30.63vw;
+  margin-top: 13.35%;
+  margin-left: 47%;
+  pointer-events: none;
+  z-index: 125;
+  transform-origin: center bottom;
+  animation: intenseSway2 4s ease-in-out infinite;
+}
+
+.flower11{
+  position: absolute;
+  width: 3.75vw;
+  margin-top: 30.9%;
+  margin-left: 53%;
+  pointer-events: none;
+  z-index: 125;
+}
+
+.flower_11{
+  position: absolute;
+  width: 12.56vw;
+  margin-top: 23.9%;
+  margin-left: 50%;
+  pointer-events: visible;
+  z-index: 226;
+  transform-origin: center center;
+  animation: intenseSway 3s ease-in-out infinite;
+  transition: transform 4s linear; 
+}
+
+.flower_11:hover {
+  animation: spinCenter2 4s linear infinite;
+}
+
+.flowers_group3{
+  margin-left: 74%;
+  width: 70vw;
+  height: 30vw;
+  position: absolute;
+  z-index: 300;
+}
+
+.flower12{
+  position: absolute;
+  width: 23.4vw;
+  margin-top: 29.75%;
+  margin-left: 52%;
+  pointer-events: none;
+  z-index: 1205;
+  transform-origin: left bottom;
+  animation: leftSwayPlus2 4s ease-in-out infinite;
+}
+
+.flower13 {
+  position: absolute;
+  width: 10.19vw;
+  transform: scale(-1);
+  margin-top: -16%;
+  margin-left: -8%;
+  z-index: 8;
+  pointer-events: none;
+  transform-origin: center bottom;
+  animation: intenseSway 4s ease-in-out infinite;
+}
+
+.flower14 {
+  position: absolute;
+  width: 20.19vw;
+  transform: scale(-1);
+  margin-top: -30%;
+  margin-left: -20%;
+  z-index: 200000;
+  pointer-events: none;
+  transform-origin: center bottom;
+  animation: leftSwayPlus2 4s ease-in-out infinite;
+}
+
+.flower15 {
+  position: absolute;
+  width: 20.19vw;
+  transform: scale(-1);
+  margin-top: -30%;
+  margin-left: 5%;
+  z-index: 200000;
+  pointer-events: none;
+  transform-origin: center bottom;
+  animation: leftSwayPlus2 4s ease-in-out infinite;
+}
+
+.flower16{
+  position: absolute;
+  width: 4vw;
+  margin-top: 6%;
+  margin-left: 13%;
+  z-index: 8;
+  pointer-events: none;
+}
+
+.flower_16 {
+  position: absolute;
+  width: 13vw;
+  margin-top: 0%;
+  margin-left: 10%;
+  z-index: 8;
+  pointer-events: auto;
+  transform-origin: center center;
+  animation: intenseSway 3s ease-in-out infinite;
+  transition: transform 2s linear; 
+}
+
+.flower_16:hover {
+  animation: intenseSway 3s ease-in-out infinite,
+    spinCenter 2s linear infinite;
+}
+
+
+
+
+
+
+
+.avtor{
+    position: absolute;
+    margin-top: 16.25%;
+    margin-left: 42%;
+    z-index: 800;
+    width: 22.78vw;
+    animation: avtor 6s linear infinite;
+}
+
+.avtor_text{
+    position: absolute;
+    margin-top: 19vw;
+    margin-left: 45vw;
+    z-index: 801;
+    font-size: 1vw;
+    animation: avtor 6s linear infinite;
+    font-family: "Inter_Medium"; 
+    font-style: normal;
+}
+
+.curator{
+    position: absolute;
+    margin-top: 16.25%;
+    margin-left: 70.5vw;
+    z-index: 800;
+    width: 22.78vw;
+    animation: curator 6s linear infinite;
+}
+
+.curator_text{
+    position: absolute;
+    margin-top: 19vw;
+    margin-left: 73.7vw;
+    z-index: 801;
+    font-size: 1vw;
+    animation: curator 6s linear infinite;
+    font-family: "Inter_Medium"; 
+    font-style: normal;
+}
+
+
+
+
+.flip-word {
+  display: inline-block;
+  perspective: 27.7vw;
+  font-family: "Inter_Regular";
+  font-size: 1.39vw;
+  z-index: 801;
+  position: absolute; 
+  top: 52%; 
+  left: 45%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  animation: avtor 6s linear infinite;
+}
+
+.flipper {
+  position: relative;
+  width: 100%;
+  height: 2.78vw;
+  transform-style: preserve-3d;
+  animation: flipWord 5s infinite ease-in-out;
+  z-index: 801;
+}
+
+.front, .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  color: black;
+  z-index: 30;
+  display: flex;
+  align-items: center;
+}
+
+.front {
+  transform: rotateX(0deg);
+  z-index: 30;
+  justify-content: flex-start; 
+}
+
+.back {
+  transform: rotateX(180deg);
+  z-index: 30;
+  justify-content: flex-start; 
+}
+
+
+
+
+
+.flip-word2 {
+  display: inline-block;
+  perspective: 27.7vw;
+  font-family: "Inter_Regular";
+  font-size: 1.39vw;
+  z-index: 801;
+  position: absolute; 
+  top: 52%; 
+  left: 73.7%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  animation: curator 6s linear infinite;
+}
+
+.flipper2 {
+  position: relative;
+  width: 100%;
+  height: 2.78vw;
+  transform-style: preserve-3d;
+  animation: flipWord 5s infinite ease-in-out;
+  z-index: 801;
+}
+
+.front2, .back2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  color: black;
+  z-index: 31;
+  display: flex;
+  align-items: center;
+}
+
+.front2 {
+  transform: rotateX(0deg);
+  z-index: 31;
+  justify-content: flex-start; 
+}
+
+.back2 {
+  transform: rotateX(180deg);
+  z-index: 31;
+  justify-content: flex-start; 
 }
 }
 
