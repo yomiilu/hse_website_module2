@@ -1622,46 +1622,46 @@ html, body {
 
 .podval{
     position: absolute;
-    margin-top: 53%;
-    margin-left: 8.9%;
+    margin-top: 46%;
+    margin-left: -0.7%;
     pointer-events: none;
     z-index: 11;
-    width: 80.85vw;
+    width: 101vw;
 }
 
 .podval2{
     position: absolute;
-    margin-top: 31.6%;
-    margin-left: 40.5%;
+    margin-top: 69.3%;
+    margin-left: 8.3%;
     z-index: 1000;
-    width: 54.44vw;
+    width: 81.44vw;
 }
 
 .mini1{
     position: absolute;
-    margin-top: 26.7%;
-    margin-left: 71.5%;
+    margin-top: 62.7%;
+    margin-left: 50.5%;
     pointer-events: none;
     z-index: 900;
-    width: 15.44vw;
+    width: 25.44vw;
     rotate: -30deg;
 }
 
 .mini2{
     position: absolute;
-    margin-top: 19.7%;
-    margin-left: 58.5%;
+    margin-top: 54.7%;
+    margin-left: 38.5%;
     pointer-events: none;
     z-index: 900;
-    width: 13.44vw;
+    width: 20.44vw;
     transform-origin: center bottom;
     animation: leftSwayPlus2 3s ease-in-out infinite;
 }
 
 .mini3{
     position: absolute;
-    margin-top: 22.7%;
-    margin-left: 65.5%;
+    margin-top: 58.7%;
+    margin-left: 60.5%;
     pointer-events: none;
     z-index: 900;
     width: 12.44vw;
@@ -1669,17 +1669,17 @@ html, body {
 
 .mini4{
     position: absolute;
-    margin-top: 22.7%;
-    margin-left: 48.5%;
+    margin-top: 58.7%;
+    margin-left: 24.5%;
     pointer-events: none;
     z-index: 900;
-    width: 14.44vw;
+    width: 17.44vw;
 }
 
 .mini5{
     position: absolute;
-    margin-top: 18.7%;
-    margin-left: 85.5%;
+    margin-top: 50.7%;
+    margin-left: 78.5%;
     pointer-events: none;
     z-index: 900;
     width: 12.44vw;
@@ -2162,19 +2162,19 @@ html, body {
 
 .avtor{
     position: absolute;
-    margin-top: 16.25%;
-    margin-left: 42%;
+    margin-top: 47.75%;
+    margin-left: 14%;
     z-index: 800;
-    width: 22.78vw;
+    width: 30.78vw;
     animation: avtor 6s linear infinite;
 }
 
 .avtor_text{
     position: absolute;
-    margin-top: 19vw;
-    margin-left: 45vw;
+    margin-top: 51vw;
+    margin-left: 18.7vw;
     z-index: 801;
-    font-size: 1vw;
+    font-size: 1.6vw;
     animation: avtor 6s linear infinite;
     font-family: "Inter_Medium"; 
     font-style: normal;
@@ -2182,19 +2182,19 @@ html, body {
 
 .curator{
     position: absolute;
-    margin-top: 16.25%;
-    margin-left: 70.5vw;
+    margin-top: 47.75%;
+    margin-left: 55.5vw;
     z-index: 800;
-    width: 22.78vw;
+    width: 30.78vw;
     animation: curator 6s linear infinite;
 }
 
 .curator_text{
     position: absolute;
-    margin-top: 19vw;
-    margin-left: 73.7vw;
+    margin-top: 51vw;
+    margin-left: 60.6vw;
     z-index: 801;
-    font-size: 1vw;
+    font-size: 1.6vw;
     animation: curator 6s linear infinite;
     font-family: "Inter_Medium"; 
     font-style: normal;
@@ -2207,11 +2207,11 @@ html, body {
   display: inline-block;
   perspective: 27.7vw;
   font-family: "Inter_Regular";
-  font-size: 1.39vw;
+  font-size: 2.3vw;
   z-index: 801;
   position: absolute; 
-  top: 52%; 
-  left: 45%;
+  top: 60%; 
+  left: 18.6%;
   transform: translate(-50%, -50%);
   white-space: nowrap;
   animation: avtor 6s linear infinite;
@@ -2257,11 +2257,11 @@ html, body {
   display: inline-block;
   perspective: 27.7vw;
   font-family: "Inter_Regular";
-  font-size: 1.39vw;
+  font-size: 2.3vw;
   z-index: 801;
   position: absolute; 
-  top: 52%; 
-  left: 73.7%;
+  top: 60%; 
+  left: 60.7%;
   transform: translate(-50%, -50%);
   white-space: nowrap;
   animation: curator 6s linear infinite;
