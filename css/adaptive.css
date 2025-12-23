@@ -1451,8 +1451,8 @@ html, body {
 .sled1{
     position: absolute;
     width: 18.1vw;
-    margin-top: 23%;
-    margin-left: 0.5%;
+    margin-top: 32%;
+    margin-left: 1%;
     pointer-events: none;
     z-index: 5;
     animation: sled-fade 6s infinite;
@@ -1460,7 +1460,7 @@ html, body {
 
 .sled2{
     position: absolute;
-    margin-top: 16%;
+    margin-top: 23%;
     width: 15.6vw;
     margin-left: 1.5%;
     pointer-events: none;
@@ -1470,8 +1470,8 @@ html, body {
 
 .sled3{
     position: absolute;
-    margin-top: 16.5%;
-    margin-left: 16%;
+    margin-top: 22%;
+    margin-left: 21%;
     width: 13vw;
     pointer-events: none;
     z-index: 6;
@@ -1480,8 +1480,8 @@ html, body {
 
 .sled4{
     position: absolute;
-    margin-top: 11%;
-    margin-left: 20%;
+    margin-top: 16%;
+    margin-left: 25%;
     pointer-events: none;
     z-index: 6;
     width: 10vw;
@@ -1490,8 +1490,8 @@ html, body {
 
 .sled5{
     position: absolute;
-    margin-top: 10.5%;
-    margin-left: 30%;
+    margin-top: 14.5%;
+    margin-left: 38%;
     pointer-events: none;
     z-index: 6;
     width: 9vw;
@@ -1501,11 +1501,12 @@ html, body {
 .sled6{
     position: absolute;
     margin-top: 7.5%;
-    margin-left: 34%;
+    margin-left: 60%;
     pointer-events: none;
     z-index: 6;
     width: 6vw;
     animation: sled-fade 6s infinite;
+    display: none;
 }
 
 .sled7{
@@ -1516,6 +1517,7 @@ html, body {
     z-index: 6;
     width: 5vw;
     animation: sled-fade 6s infinite;
+    display: none;
 }
 
 .sled8{
@@ -1526,6 +1528,7 @@ html, body {
     z-index: 6;
     width: 3vw;
     animation: sled-fade 6s infinite;
+    display: none;
 }
 
 .sled1 { animation-delay: 0s; }
@@ -1540,14 +1543,14 @@ html, body {
 .door{
   position:absolute;
   width: 14vw;
-  margin-top: 41.85%;
-  margin-left: 42.4%;
+  margin-top: 64.5%;
+  margin-left: 38.5%;
   z-index: 110;
 }
 
 .door1{
   position:absolute;
-  width: 14vw;
+  width: 23vw;
   margin-top: 0%;
   margin-left: 0%;
   z-index: 110;
@@ -1555,20 +1558,32 @@ html, body {
 
 .door2{
   position:absolute;
-  padding-top:8.9%;
-  left:12.4%;
-  width: 5.08vw;
+  padding-top: 14%;
+  width: 8.4vw;
+  left:70%;
   object-fit:contain;
   animation: open_left 8s linear infinite;
   animation-delay: 0.7s;
   z-index: 110;
 }
 
+@keyframes open_right {
+  0%,20%{left:85%;}
+  40%,60%{left:117%;}
+  80%,100%{left:85%;}
+}
+
+@keyframes open_left {
+  0%,20%{left:20%;}
+  40%,60%{left:-15.3%;}
+  80%,100%{left:20%;}
+}
+
 .door3{
   position:absolute;
-  padding-top:8.9%;
-  width: 5.08vw;
-  left:51%;
+  padding-top: 14%;
+  width: 8.4vw;
+  left: 40%;
   object-fit:contain;
   animation: open_right 8s linear infinite;
   animation-delay: 0.7s;
@@ -1577,46 +1592,46 @@ html, body {
 
 .door4{
   position:absolute;
-  margin-left: 42.2%;
-  width: 14.5vw;
-  margin-top: 41.83%;
+  margin-left: 39.2%;
+  width: 23.5vw;
+  margin-top: 64.5%;
   z-index: 5000;
 }
 
 .wall_left{
     position: absolute;
-    margin-top: 14.94%;
-    margin-left: 39.9%;
+    margin-top: 20%;
+    margin-left: 34.2%;
     pointer-events: none;
     z-index: 120;
-    width: 3.75vw;
+    width: 6.2vw;
 }
 
 .wall_right{
     position: absolute;
-    margin-top: 14.97%;
-    margin-left: 55.3%;
+    margin-top: 20%;
+    margin-left: 59.8%;
     pointer-events: none;
     z-index: 120;
-    width: 3.75vw; 
+    width: 6.2vw; 
 }
 
 .column1{
     position: absolute;
-    margin-top: 10.8%;
-    margin-left: 36%;
+    margin-top: 11.8%;
+    margin-left: 27%;
     pointer-events: none;
     z-index: 1000;
-    width: 4.5vw;
+    width: 7.56vw;
 }
 
 .column2{
     position: absolute;
-    margin-top: 10.9%;
-    margin-left: 58.5%;
+    margin-top: 11.8%;
+    margin-left: 65.5%;
     pointer-events: none;
     z-index: 1000;
-    width: 4.5vw;
+    width: 7.56vw;
 }
 
 
@@ -1792,20 +1807,21 @@ html, body {
 
 .gallery_glass{
   position: absolute;
-  width: 13.22vw;
-  margin-top: 15%;
-  margin-left: 43%;
+  width: 20.8vw;
+  margin-top: 20%;
+  margin-left: 39.5%;
   z-index: 6;
 }
 
 .glass1{
   position: absolute;
-  width: 32vw;
+  width: 3vw;
   margin-top: 0%;
   margin-left: -7%;
   pointer-events: visible; 
   z-index: 7;
   transition: margin-left 0.5s ease;
+  display: none;
 }
 
 .glass1:hover {
@@ -1815,8 +1831,8 @@ html, body {
 
 .glass2{
   position: absolute;
-  width: 32vw;
-  margin-top: 2%;
+  width: 37vw;
+  margin-top: 0%;
   margin-left: -11%;
   z-index: 8;
   pointer-events: visible; 
@@ -1831,7 +1847,7 @@ html, body {
   position: absolute;
   width: 100%;
   height: 100%;
-  top: 0;
+  top: 6%;
   left: 0;
   z-index: 7; 
   pointer-events: none;
@@ -1839,9 +1855,9 @@ html, body {
 
 .glass3{
   position: absolute;
-  width: 60vw;
-  margin-top: 13%;
-  margin-left: 43%;
+  width: 90vw;
+  margin-top: 30%;
+  margin-left: 32%;
   z-index: 7;
   pointer-events: visible;
   transition: margin-right 0.5s ease;
@@ -1853,25 +1869,25 @@ html, body {
 
 .glass4{
   position: absolute;
-  width: 60vw;
-  margin-top: 8%;
-  margin-left: 48%;
+  width: 80vw;
+  margin-top: 25%;
+  margin-left: 35%;
   z-index: 7;
 }
 
 .glass5{
   position: absolute;
-  width: 60vw;
-  margin-top: 4%;
-  margin-left: 48%;
+  width: 70vw;
+  margin-top: 17%;
+  margin-left: 56%;
   z-index: 7;
 }
 
 .glass6{
   position: absolute;
-  width: 60vw;
-  margin-top: 3%;
-  margin-left: 44%;
+  width: 70vw;
+  margin-top: 13%;
+  margin-left: 45%;
   z-index: 7;
   pointer-events: visible;
   transition: margin-right 0.5s ease;
@@ -1883,8 +1899,8 @@ html, body {
 
 .glass7{
   position: absolute;
-  width: 34vw;
-  margin-top: 2%;
+  width: 60vw;
+  margin-top: 10%;
   margin-left: 80%;
   z-index: 30;
   pointer-events: visible;
@@ -1897,8 +1913,8 @@ html, body {
 
 .glass8{
   position: absolute;
-  width: 27vw;
-  margin-top: 0%;
+  width: 30vw;
+  margin-top: 6%;
   margin-left: 85%;
   z-index: 7;
 }
@@ -1968,8 +1984,8 @@ html, body {
 
 .flower5{
   position: absolute;
-  width: 7.9vw;
-  margin-top: 35%;
+  width: 9.9vw;
+  margin-top: calc(35% + 20vw - 1.7vw);
   margin-left: 43%;
   pointer-events: none;
   z-index: 121;
@@ -1977,8 +1993,8 @@ html, body {
 
 .flower_5{
   position: absolute;
-  width: 12.5vw;
-  margin-top: 29%;
+  width: 14.5vw;
+  margin-top: calc(29% + 20vw - 1.7vw);
   margin-left: 36%;
   pointer-events: visible;
   z-index: 125;
@@ -1991,12 +2007,10 @@ html, body {
   animation: spinCenter 2s linear infinite;
 }
 
-
-
 .flower6{
   position: absolute;
-  width: 24.38vw;
-  margin-top: 24%;
+  width: 26.38vw;
+  margin-top: calc(24% + 20vw - 1.7vw);
   margin-left: 26%;
   pointer-events: none;
   z-index: 123;
@@ -2006,8 +2020,8 @@ html, body {
 
 .flower7{
   position: absolute;
-  width: 10.49vw;
-  margin-top: 24%;
+  width: 12.49vw;
+  margin-top: calc(24% + 20vw - 1.7vw);
   margin-left: 36%;
   pointer-events: none;
   z-index: 1200;
@@ -2017,8 +2031,8 @@ html, body {
 
 .flower8{
   position: absolute;
-  width: 17.71vw;
-  margin-top: 13.9%;
+  width: 19.71vw;
+  margin-top: calc(13.9% + 20vw - 1.7vw);
   margin-left: 36%;
   pointer-events: none;
   z-index: 124;
@@ -2028,8 +2042,8 @@ html, body {
 
 .flower9{
   position: absolute;
-  width: 12.57vw;
-  margin-top: 11%;
+  width: 14.57vw;
+  margin-top: calc(11% + 20vw - 1.7vw);
   margin-left: 50%;
   pointer-events: none;
   z-index: 1201;
@@ -2039,8 +2053,8 @@ html, body {
 
 .flower10{
   position: absolute;
-  width: 30.63vw;
-  margin-top: 13.35%;
+  width: 32.63vw;
+  margin-top: calc(13.35% + 20vw - 1.7vw);
   margin-left: 47%;
   pointer-events: none;
   z-index: 125;
@@ -2050,8 +2064,8 @@ html, body {
 
 .flower11{
   position: absolute;
-  width: 3.75vw;
-  margin-top: 30.9%;
+  width: 5.75vw;
+  margin-top: calc(30.9% + 20vw);
   margin-left: 53%;
   pointer-events: none;
   z-index: 125;
@@ -2059,8 +2073,8 @@ html, body {
 
 .flower_11{
   position: absolute;
-  width: 12.56vw;
-  margin-top: 23.9%;
+  width: 14.56vw;
+  margin-top: calc(23.9% + 20vw - 3.7vw);
   margin-left: 50%;
   pointer-events: visible;
   z-index: 226;
