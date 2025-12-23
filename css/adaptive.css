@@ -527,7 +527,7 @@ html, body {
 .ground_back1{
     width: 200%;
     position: absolute;
-    margin-left: 0%;
+    margin-left: -1%;
     margin-top: 130%;
     pointer-events: none;
 }
