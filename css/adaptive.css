@@ -527,6 +527,7 @@ html, body {
 .ground_back1{
     width: 200%;
     position: absolute;
+    margin-left: 0%;
     margin-top: 130%;
     pointer-events: none;
 }
@@ -1610,7 +1611,7 @@ html, body {
 .wall_right{
     position: absolute;
     margin-top: 20%;
-    margin-left: 59.8%;
+    margin-left: 59.7%;
     pointer-events: none;
     z-index: 120;
     width: 6.2vw; 
