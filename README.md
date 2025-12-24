@@ -13,11 +13,3 @@ My project was made for "Second life garden", where flowers grow from broken gla
 | CSS           | Стилизация                | 3.0        | |
 | Figma         | Прототипирование UI       | n/a        |
 
-
-## 🔗 Ссылки проекта
-
-- [Сайт проекта](ссылка)
-- [![Figma-дизайн](./images/img_cover.jpg)](https://www.figma.com/design/AO9zzow4LO5MQjqT1MNNYm/%D0%9D%D0%BE%D0%BD%D0%90-%D0%90%D1%80%D0%B0%D0%BA%D0%B5%D0%BB%D1%8F%D0%BD?node-id=0-1&t=D2ZLmZ1O5g1z7g1z-1)
-- [Документация по API](ссылка)
-- [Презентация проекта (PDF)](ссылка)
-
