@@ -1409,13 +1409,13 @@ html, body {
 
 @keyframes open_right {
   0%,20%{left:90%;}
-  40%,60%{left:118%;}
+  40%,60%{left:127%;}
   80%,100%{left:90%;}
 }
 
 @keyframes open_left {
   0%,20%{left: 22%;}
-  40%,60%{left:-15.3%;}
+  40%,60%{left:-15%;}
   80%,100%{left: 22%;}
 }
 
